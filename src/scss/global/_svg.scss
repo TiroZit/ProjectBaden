@@ -1,0 +1,9 @@
+.--svg__pattern,.--svg__pattern-before::before,.--svg__pattern-after::after{
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg viewBox='0 0 9.67 9.67' stroke='%23d3d3d3' fill='none'%3E%3Cpath d='M.715 4.84L4.845.71l4.13 4.13-4.13 4.13z'/%3E%3Cpath d='M3.982 4.84l.863-.863.862.863-.862.863z'/%3E%3C/svg%3E");
+}
+.--svg__pattern-before::before {
+    content:'';
+}
+.--svg__pattern-after::after {
+    content:'';
+}
