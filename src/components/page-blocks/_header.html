@@ -1,9 +1,4 @@
 <header class="header">
-   <style>
-      .cls-1 {
-         stroke: #d3d3d3;
-      }
-   </style>
    <div class="container flex --just-space">
       <a class="logo" href="/">
          <img
@@ -27,49 +22,81 @@
             <li class="header__menu-item">
                <a class="header__menu-link" href="/stoke">Акции</a>
                @@include('../bem-blocks/_sprite.html',{ "class":"pattern",
-               "width":"width: 9px;", "height":"height: 9px;",
-               "id":"css--pattern", })
+               "width":"width: 9px;", "height":"height: 9px;", "fill":"fill:none;",
+               "stroke":"stroke:#d3d3d3","id":"css--pattern", })
             </li>
             <li class="header__menu-item">
-               <a class="header__menu-link" href="/stoke">Прайс</a>
+               <a class="header__menu-link" href="/price">Прайс</a>
                @@include('../bem-blocks/_sprite.html',{ "class":"pattern",
-               "width":"width: 9px;", "height":"height: 9px;",
-               "id":"css--pattern", })
+               "width":"width: 9px;", "height":"height: 9px;", "fill":"fill:none;",
+               "stroke":"stroke:#d3d3d3","id":"css--pattern", })
             </li>
             <li class="header__menu-item">
-               <a class="header__menu-link" href="/stoke">Номера</a>
+               <a class="header__menu-link" href="/rooms">Номера</a>
                @@include('../bem-blocks/_sprite.html',{ "class":"pattern",
-               "width":"width: 9px;", "height":"height: 9px;",
-               "id":"css--pattern", })
+               "width":"width: 9px;", "height":"height: 9px;", "fill":"fill:none;",
+               "stroke":"stroke:#d3d3d3","id":"css--pattern", })
             </li>
             <li class="header__menu-item">
-               <a class="header__menu-link" href="/stoke">Контакты</a>
+               <a class="header__menu-link" href="/contacts">Контакты</a>
                @@include('../bem-blocks/_sprite.html',{ "class":"pattern",
-               "width":"width: 9px;", "height":"height: 9px;",
-               "id":"css--pattern", })
+               "width":"width: 9px;", "height":"height: 9px;", "fill":"fill:none;",
+               "stroke":"stroke:#d3d3d3","id":"css--pattern", })
             </li>
             <li class="header__menu-item">
-               <a class="header__menu-link" href="/stoke">
-                  <span>Организация свадеб</span>
+               <a class="header__menu-link" href="/wedding">
+                  <span style="color: #bb93af;">Организация свадеб</span>
                </a>
                @@include('../bem-blocks/_sprite.html',{ "class":"pattern",
-               "width":"width: 9px;", "height":"height: 9px;",
-               "id":"css--pattern", })
+               "width":"width: 9px;", "height":"height: 9px;", "fill":"fill:none;",
+               "stroke":"stroke:#d3d3d3","id":"css--pattern", })
             </li>
             <li class="header__menu-item">
-               <a class="header__menu-link" href="/stoke">
-                  <span>Бани народов мира</span>
+               <a class="header__menu-link" href="/baths">
+                  <span style="color: #fa8072;">Бани народов мира</span>
                </a>
                @@include('../bem-blocks/_sprite.html',{ "class":"pattern",
-               "width":"width: 9px;", "height":"height: 9px;",
-               "id":"css--pattern", })
+               "width":"width: 9px;", "height":"height: 9px;", "fill":"fill:none;",
+               "stroke":"stroke:#d3d3d3","id":"css--pattern", })
             </li>
             <li class="header__menu-item">
-               <a class="header__menu-link" href="/stoke">
-                  <span>Новый год 2022</span>
+               <a class="header__menu-link" href="/new-year">
+                  <span style="color: blue;">Новый год 2022</span>
                </a>
             </li>
          </ul>
       </nav>
+      <div class="header__contacts">
+         <a class="header__contacts-link" href="tel:+73512003333">
+            @@include('../bem-blocks/_sprite.html',{ "class":"phone",
+            "width":"width: 17px;", "height":"height: 17px;", "fill":"fill:none;", 
+            "stroke":"stroke: #000", "id":"css--phone", })
+            <div class="header__contacts-title">
+               +7 351 200 3333
+            </div>
+         </a>
+         <a class="header__contacts-link--btn" href="#">
+            @@include('../bem-blocks/_sprite.html',{ "class":"phone--popup",
+            "width":"width: 26px;", "height":"height: 18px;", "fill":"fill:none;", 
+            "stroke":"stroke: #0d6690", "id":"css--phone--popup", })
+         </a>
+      </div>
+      <div class="header__socials">
+         <a class="header__social-item" href="https://ok.ru/lesnayaskazka">
+            @@include('../bem-blocks/_sprite.html',{ "class":"ok",
+            "width":"width: 12px;", "height":"height: 22px;", "fill":"fill:none;", 
+            "stroke":"stroke: #000", "id":"css--ok", })
+         </a>
+         <a class="header__social-item" href="https://vk.com/74baden">
+            @@include('../bem-blocks/_sprite.html',{ "class":"vk",
+            "width":"width: 18px;", "height":"height: 14px;", "fill":"fill:none;", 
+            "stroke":"stroke: #000", "id":"css--vk", })
+         </a>
+         <a class="header__social-item" href="https://www.instagram.com/badenhot">
+            @@include('../bem-blocks/_sprite.html',{ "class":"instagram",
+            "width":"width: 17px;", "height":"height: 17px;", "fill":"fill:none;", 
+            "stroke":"stroke: #000", "id":"css--instagram", })
+         </a>
+      </div>
    </div>
 </header>

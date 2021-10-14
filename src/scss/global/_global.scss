@@ -35,13 +35,16 @@
 html,
 body {
    //color: $colorBlack;
-   font-family: "OpenSans" sans-serif;
-   //font-size: $f14;
+   font-family: "OpenSans", sans-serif;
+   font-size: 15px;
    font-weight: 400;
 }
 a {
    color: inherit;
    transition: all 0.3s ease 0s;
+}
+button{
+   background-color: inherit;
 }
 ._wrapper {
    display: flex;
