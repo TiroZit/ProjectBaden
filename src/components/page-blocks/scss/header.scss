@@ -63,9 +63,14 @@
    display: flex;
 }
 .header__menu-link{
+   display: block;
    padding: 40px 14px;
    font-size: 15px;
    font-weight: 700;
+}
+.header__menu-link:hover{
+   background-color: #f3f3f3;
+   color: #157aaa;
 }
 .header__menu{
 }
@@ -104,4 +109,13 @@
 }
 .header__socials > *:not(:last-child){
    margin-right: 18px;
+}
+svg{
+   stroke: #000;
+   transition: all 0.3s ease 0s;
+}
+.ok:hover,
+.vk:hover,
+.instagram:hover{
+   stroke: #0d6690;
 }
