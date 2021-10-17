@@ -116,14 +116,15 @@
 .header__socials > *{
    padding: 25px 10px;
 }
+.header__contacts-link:hover>*,
+.header__contacts-link:hover>*,
+.header__social-item:hover>*{
+   stroke: #0d6690;
+   color: #0d6690;
+}
 svg{
    stroke: #000;
    transition: all 0.3s ease 0s;
-}
-.ok:hover,
-.vk:hover,
-.instagram:hover{
-   stroke: #0d6690;
 }
 @media (max-width: 1710px){
    .header .container{
