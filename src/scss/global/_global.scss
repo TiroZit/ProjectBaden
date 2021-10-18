@@ -34,18 +34,26 @@
 
 html,
 body {
-   //color: $colorBlack;
+   color: $colorBlack;
    font-family: "OpenSans", sans-serif;
    font-size: 15px;
    font-weight: 400;
+   transition: all 0.5s ease 0s;
 }
 a,
 .header__contacts-title{
    color: inherit;
    transition: all 0.3s ease 0s;
 }
+a:hover{
+   color: $colorBlue;
+}
 button{
    background-color: inherit;
+}
+body.lock{
+   overflow: hidden;
+   background: rgba(0,0,0,.5);
 }
 ._wrapper {
    display: flex;

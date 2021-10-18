@@ -1,0 +1,79 @@
+.main-menu{
+   overflow: auto;
+   position: fixed;
+   top: 95px;
+   left: -100%;
+   z-index: 5;
+   width: 610px;
+   height: 100%;
+   background-color: $colorWhite;
+   padding: 20px 0 0 130px;
+   transition: left 0.5s ease 0s;
+}
+.main-menu.open{
+   left: 0%;
+}
+.main-menu__complex{
+   position: relative;
+   border: 2px solid #ddd;
+   padding: 20px 50px;
+   margin-right: 100px;
+   line-height: 1.8;
+}
+.main-menu__item--logo{
+   position: absolute;
+   top: 50%;
+   right: 78%;
+   padding: 10px;
+   background-color: $colorWhite;
+   transform: translateY(-50%) rotate(-90deg);
+}
+.main-menu__subtitle,
+.main-menu__title{
+   text-align: right;
+   font-weight: 900;
+   color: #c6c6c6;
+}
+.main-menu__subtitle{
+   font-size: 24px;
+   line-height: 26px;
+}
+.main-menu__title{
+   font-size: 44px;
+   line-height: 46px;
+}
+.main-menu__item--price{
+   position: absolute;
+   bottom: 205px;
+   right: -32px;
+   padding: 8px;
+   background-color: #c6c6c6;
+   color: $colorWhite;
+}
+.main-menu__item{
+}
+.main-menu__link{
+   display: block;
+   font-size: 20px;
+   font-weight: 900;
+   padding-right: 15px;
+}
+.main-menu__list{
+   margin: 10px 0 0 50px;
+   line-height: 1.8;
+}
+.main-menu__btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0 20px 50px;
+   max-width: 230px;
+   padding: 13px;
+   border: 1px solid #c6c6c6;
+}
+.main-menu__btn:hover{
+   border: 1px solid #0d6690;
+}
+.main-menu__btn>*:not(:last-child){
+   margin-right: 30px;
+}
