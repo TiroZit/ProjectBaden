@@ -584,9 +584,12 @@ body.lock {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 38px 20px;
+  padding: 38px 0;
   color: #585858;
-  font-size: 14px; }
+  font-size: 14px;
+  max-width: 1920px;
+  width: 97%;
+  margin: 0 auto; }
 
 .footer__list-copy,
 .footer__list-dev {
