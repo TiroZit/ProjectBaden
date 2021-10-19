@@ -1,0 +1,21 @@
+.footer{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 38px 20px;
+}
+.footer__list-copy>*:not(:last-child),
+.footer__list-dev>*:not(:last-child){
+   margin-right: 5px;
+}
+.footer__navbar{
+   flex-grow: 1;
+   padding: 0 20px;
+}
+.footer__list-nav{
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.footer__list-nav>*:not(:last-child){
+   margin-right: 15px;
+}
