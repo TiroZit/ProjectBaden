@@ -77,20 +77,20 @@
 .main-menu__btn>*:not(:last-child){
    margin-right: 30px;
 }
-.main-rooms{
-}
 .main-menu::-webkit-scrollbar,
-.main-rooms::-webkit-scrollbar{
+.main-rooms::-webkit-scrollbar,
+.main-cafe::-webkit-scrollbar{
    display: none;
 }
-.main-menu__item--rooms:hover .main-rooms{
+.main-menu__item--rooms:hover .main-rooms,
+.main-menu__item--cafe:hover .main-cafe{
    opacity: 1;
    visibility: visible;
 }
 .main-rooms{
    display: grid;
    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
-   gap: 10px;
+   gap: 10px 20px;
    left: 610px;
    opacity: 0;
    visibility: hidden;
@@ -99,7 +99,6 @@
    transition: opacity .5s .15s,visibility .5s .15s;
 }
 .main-rooms__item{
-   padding: 13px;
    transition: all 0.3s ease 0s;
 }
 .main-rooms__link{
@@ -125,4 +124,10 @@
    color: $colorWhite;
    padding: 5px 10px;
    height: 31px;
+}
+.main-cafe{
+   grid-template-rows: 210px;
+}
+.main-cafe__title{
+   margin-top: 10px;
 }
