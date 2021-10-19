@@ -31,7 +31,6 @@
 .--dir-col {
    flex-direction: column;
 }
-
 html,
 body {
    color: $colorBlack;
@@ -52,7 +51,6 @@ button{
    background-color: inherit;
 }
 body.lock{
-   overflow: hidden;
    background: rgba(0,0,0,.5);
 }
 ._wrapper {

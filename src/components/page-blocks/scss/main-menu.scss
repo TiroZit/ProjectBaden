@@ -77,3 +77,52 @@
 .main-menu__btn>*:not(:last-child){
    margin-right: 30px;
 }
+.main-rooms{
+}
+.main-menu::-webkit-scrollbar,
+.main-rooms::-webkit-scrollbar{
+   display: none;
+}
+.main-menu__item--rooms:hover .main-rooms{
+   opacity: 1;
+   visibility: visible;
+}
+.main-rooms{
+   display: grid;
+   grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+   gap: 10px;
+   left: 610px;
+   opacity: 0;
+   visibility: hidden;
+   width: 65%;
+   padding: 20px 40px 20px 0;
+   transition: opacity .5s .15s,visibility .5s .15s;
+}
+.main-rooms__item{
+   padding: 13px;
+   transition: all 0.3s ease 0s;
+}
+.main-rooms__link{
+}
+.main-rooms__img{
+   height: 166px;
+}
+.main-rooms__content{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+}
+.main-rooms__title{
+   font-size: 14px;
+   font-weight: 600;
+   width: 45%;
+}
+.main-rooms__price{
+   background-color: #1b98d3;
+   font-size: 12px;
+   font-weight: 600;
+   text-align: center;
+   color: $colorWhite;
+   padding: 5px 10px;
+   height: 31px;
+}
