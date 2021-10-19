@@ -131,3 +131,21 @@
 .main-cafe__title{
    margin-top: 10px;
 }
+@media (max-width: 1710px){
+   .main-menu{
+      top: 114px;
+   }
+   .main-rooms{
+      width: 52%;
+   }
+}
+@media (max-width: 1280px){
+   .main-rooms{
+      width: 34%;
+   }
+}
+@media (max-width: 991px){
+   .main-menu{
+      display: none;
+   }
+}
