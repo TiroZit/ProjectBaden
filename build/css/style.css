@@ -803,7 +803,7 @@ svg {
   position: fixed;
   top: 95px;
   left: -100%;
-  z-index: 5;
+  z-index: 6;
   width: 610px;
   height: 90%;
   background-color: #fff;
