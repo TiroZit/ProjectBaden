@@ -29,6 +29,9 @@
 .footer__list-nav>*:not(:last-child){
    margin-right: 15px;
 }
+.footer__item-nav{
+   margin: 5px 0;
+}
 @media (max-width: 991px){
    .footer{
       flex-wrap: wrap;

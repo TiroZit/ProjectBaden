@@ -146,6 +146,18 @@
 }
 @media (max-width: 991px){
    .main-menu{
-      display: none;
+      top: 75px;
+      width: 100vw;
+      padding: 0;
+   }
+   .main-menu__nav{
+      width: 60%;
+      margin: 0 auto;
+   }
+   .main-menu__complex{
+      padding: 40px 0;
+   }
+   .main-menu__item{
+      margin-left: 14%;
    }
 }

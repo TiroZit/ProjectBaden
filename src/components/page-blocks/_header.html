@@ -15,54 +15,59 @@
       </a>
       <a href="#" class="header__services">
          <button class="burger-menu"></button>
+         <button class="m-burger-services"></button>
          <div class="header__services-title">Все услуги</div>
       </a>
       <nav class="header__menu">
          <ul class="header__menu-list">
+            <li class="header__menu-item header__menu-item--services">
+               @@include('../bem-blocks/_sprite.html',{ "class":"arrow",
+               "width":"width: 11px;", "height":"height: 16px;", "fill":"fill:none;",
+               "id":"css--arrow", })
+               <a class="header__menu-link" href="">Все услуги</a>
+               @@include('../bem-blocks/_sprite.html',{ "class":"pattern",
+               "id":"css--pattern", })
+            </li>
             <li class="header__menu-item">
                <a class="header__menu-link" href="/stoke">Акции</a>
                @@include('../bem-blocks/_sprite.html',{ "class":"pattern",
-               "width":"width: 9px;", "height":"height: 9px;", "fill":"fill:none;",
-               "stroke":"stroke:#d3d3d3","id":"css--pattern", })
+               "id":"css--pattern", })
             </li>
             <li class="header__menu-item">
                <a class="header__menu-link" href="/price">Прайс</a>
                @@include('../bem-blocks/_sprite.html',{ "class":"pattern",
-               "width":"width: 9px;", "height":"height: 9px;", "fill":"fill:none;",
-               "stroke":"stroke:#d3d3d3","id":"css--pattern", })
+               "id":"css--pattern", })
             </li>
             <li class="header__menu-item">
                <a class="header__menu-link" href="/rooms">Номера</a>
                @@include('../bem-blocks/_sprite.html',{ "class":"pattern",
-               "width":"width: 9px;", "height":"height: 9px;", "fill":"fill:none;",
-               "stroke":"stroke:#d3d3d3","id":"css--pattern", })
+               "id":"css--pattern", })
             </li>
             <li class="header__menu-item">
                <a class="header__menu-link" href="/contacts">Контакты</a>
                @@include('../bem-blocks/_sprite.html',{ "class":"pattern",
-               "width":"width: 9px;", "height":"height: 9px;", "fill":"fill:none;",
-               "stroke":"stroke:#d3d3d3","id":"css--pattern", })
+               "id":"css--pattern", })
             </li>
             <li class="header__menu-item">
                <a class="header__menu-link" href="/wedding">
                   <span style="color: #bb93af;">Организация свадеб</span>
                </a>
                @@include('../bem-blocks/_sprite.html',{ "class":"pattern",
-               "width":"width: 9px;", "height":"height: 9px;", "fill":"fill:none;",
-               "stroke":"stroke:#d3d3d3","id":"css--pattern", })
+               "id":"css--pattern", })
             </li>
             <li class="header__menu-item">
                <a class="header__menu-link" href="/baths">
                   <span style="color: #fa8072;">Бани народов мира</span>
                </a>
                @@include('../bem-blocks/_sprite.html',{ "class":"pattern",
-               "width":"width: 9px;", "height":"height: 9px;", "fill":"fill:none;",
-               "stroke":"stroke:#d3d3d3","id":"css--pattern", })
+               "id":"css--pattern", })
             </li>
             <li class="header__menu-item">
                <a class="header__menu-link" href="/new-year">
                   <span style="color: blue;">Новый год 2022</span>
                </a>
+               @@include('../bem-blocks/_sprite.html',{ "class":"pattern",
+               "id":"css--pattern", })
             </li>
          </ul>
       </nav>

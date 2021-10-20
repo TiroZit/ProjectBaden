@@ -1,3 +1,12 @@
+.--svg__arrow,.--svg__arrow-before::before,.--svg__arrow-after::after{
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg viewBox='0 0 8.12 14' stroke-width='2'%3E%3Cpath d='M7.12 1L1 7.12 6.88 13'/%3E%3C/svg%3E");
+}
+.--svg__arrow-before::before {
+    content:'';
+}
+.--svg__arrow-after::after {
+    content:'';
+}
 .--svg__bed,.--svg__bed-before::before,.--svg__bed-after::after{
     background-image: url("data:image/svg+xml;charset=utf8, %3Csvg viewBox='0 0 36.67 25.48'%3E%3Cpath d='M.5 14.87V25h3a1.9 1.9 0 001.9-1.9v-.9h25.88v.9a1.9 1.9 0 001.9 1.9h3V14.87a5.28 5.28 0 00-5.28-5.28H5.78A5.28 5.28 0 00.5 14.87zM3.3 13.79h30.07M3.65 7.49v-3A4 4 0 017.6.5h21.48A4 4 0 0133 4.45v3'/%3E%3Cpath d='M10.21 5.4h4a2.19 2.19 0 012.19 2.19v2H8v-2a2.19 2.19 0 012.21-2.19zM22.75 5.4h4.11A2.14 2.14 0 0129 7.54v2.05h-8.39V7.54a2.14 2.14 0 012.14-2.14z'/%3E%3C/svg%3E");
 }
