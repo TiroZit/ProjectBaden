@@ -10,8 +10,10 @@
    padding: 20px 0 0 130px;
    transition: left 0.5s ease 0s;
 }
-.main-menu.open{
-   left: 0%;
+.main-menu.open,
+.header.open>.container>.main-menu,
+.header.open>.container>.header__menu{
+   left: 0;
 }
 .main-menu__complex{
    position: relative;
@@ -148,11 +150,11 @@
    .main-menu{
       top: 75px;
       width: 100vw;
-      padding: 30px 0;
-   }
-   .main-menu__nav{
-      width: 60%;
+      padding: 20px 60px;
       margin: 0 auto;
+   }
+   .main-rooms{
+      display: none;
    }
    .main-menu__complex{
       padding: 40px 0;
@@ -204,9 +206,9 @@
    }
 }
 @media (max-width: 650px){
-   .main-menu__nav{
+   .main-menu{
       width: 100%;
-      padding: 0 40px;
+      padding: 30px 40px;
    }
    .main-menu__subtitle{
       font-size: 19px;
@@ -223,7 +225,7 @@
    }
 }
 @media (max-width: 320px){
-   .main-menu__nav{
-      padding: 0 10px;
+   .main-menu{
+      padding: 20px 10px;
    }
 }

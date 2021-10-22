@@ -42,7 +42,12 @@
    display: flex;
    align-items: center;
 }
-.burger-menu {
+.header__services>*:last-child{
+   margin-left: 15px;
+}
+.burger-menu,
+.burger-menu--open,
+.burger-menu--open2{
    width: 30px;
    height: 20px;
    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg viewBox='0 0 30 14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23000' stroke-width='2' stroke-linecap='round' d='M1 1h27.989M1 6.998h27.989M1 12.996h27.989'/%3E%3C/svg%3E");
@@ -51,23 +56,11 @@
    z-index: 1;
    transition: all 0.3s ease 0s;
 }
-.header__services>*:last-child{
-   margin-left: 15px;
-}
 .burger-menu--open {
-   width: 30px;
-   height: 20px;
    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg viewBox='0 0 329.269 329' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M194.8 164.77L323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0015.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0015.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0'/%3E%3C/svg%3E");
-   background-repeat: no-repeat;
-   background-position: center;
-   z-index: 1;
 }
-.m-burger-services{
-   display: none;
-   width: 30px;
-   height: 20px;
-   background-image: url("data:image/svg+xml;charset=utf8, %3Csvg viewBox='0 0 8.12 14' stroke='%23000' stroke-width='2'%3E%3Cpath d='M7.12 1L1 7.12 6.88 13'/%3E%3C/svg%3E");
-   z-index: 1;
+.burger-menu--open2 {
+   background-image: url("data:image/svg+xml;charset=utf8, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z'/%3E%3C/svg%3E");
 }
 .header__services-title{
    font-size: 25px;
@@ -194,12 +187,19 @@ svg{
    .header__services-title{
       display: none;
    }
+   .header__services{
+      flex-basis: 10%;
+   }
    .header__menu{
       position: fixed;
       top: 75px;
       left: -100%;
       background-color: $colorWhite;
       width: 100vw;
+      transition: left 0.5s ease 0s;
+   }
+   .header__menu.open{
+      left: 0;
    }
    .header__menu-list{
       flex-direction: column;
