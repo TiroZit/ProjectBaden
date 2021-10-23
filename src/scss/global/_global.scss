@@ -50,6 +50,12 @@ a:hover{
 button{
    background-color: inherit;
 }
+h1,
+h2{
+   font-size: $f50;
+   font-weight: 900;
+   line-height: 1.2;
+}
 body.lock{
    background: rgba(0,0,0,.5);
 }
@@ -62,7 +68,14 @@ body.lock{
 .main {
    flex: 1 1 auto;
 }
+.wrapper{
+   margin-top: 100px;
+}
 .container {
    @include container("", "10px");
+   position: relative;
+}
+.container--1300 {
+   @include container("1300px", "10px");
    position: relative;
 }
