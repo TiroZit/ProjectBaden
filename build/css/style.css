@@ -808,7 +808,7 @@ a,
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
 
-a:not(.link-btn-blue):hover {
+a:not(.link-btn):hover {
   color: #157aaa; }
 
 button {
@@ -883,6 +883,10 @@ body.lock {
 .link-btn {
   border-radius: 30px; }
 
+.link-btn:hover {
+  -webkit-box-shadow: 0px 5px 20px 2px rgba(34, 60, 80, 0.2);
+          box-shadow: 0px 5px 20px 2px rgba(34, 60, 80, 0.2); }
+
 .link-btn-white {
   color: #000;
   background-color: #fff;
@@ -892,10 +896,6 @@ body.lock {
   color: #fff;
   background-color: #1A97D5;
   border-radius: 30px; }
-
-.link-btn-blue:hover {
-  -webkit-box-shadow: 0px 5px 20px 2px rgba(34, 60, 80, 0.2);
-          box-shadow: 0px 5px 20px 2px rgba(34, 60, 80, 0.2); }
 
 .link-btn-details {
   padding: 15px 50px; }
@@ -1830,7 +1830,7 @@ a,
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
 
-a:not(.link-btn-blue):hover {
+a:not(.link-btn):hover {
   color: #157aaa; }
 
 button {
@@ -1905,6 +1905,10 @@ body.lock {
 .link-btn {
   border-radius: 30px; }
 
+.link-btn:hover {
+  -webkit-box-shadow: 0px 5px 20px 2px rgba(34, 60, 80, 0.2);
+          box-shadow: 0px 5px 20px 2px rgba(34, 60, 80, 0.2); }
+
 .link-btn-white {
   color: #000;
   background-color: #fff;
@@ -1914,10 +1918,6 @@ body.lock {
   color: #fff;
   background-color: #1A97D5;
   border-radius: 30px; }
-
-.link-btn-blue:hover {
-  -webkit-box-shadow: 0px 5px 20px 2px rgba(34, 60, 80, 0.2);
-          box-shadow: 0px 5px 20px 2px rgba(34, 60, 80, 0.2); }
 
 .link-btn-details {
   padding: 15px 50px; }
