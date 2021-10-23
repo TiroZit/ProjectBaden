@@ -2,10 +2,10 @@
    text-align: center;
 }
 .faq__title{
-   margin-bottom: 50px;
+   margin-bottom: $m50;
 }
 .faq__content{
-   margin-bottom: 100px;
+   margin-bottom: $m100;
 }
 .faq__spoiler{
    text-align: start;
@@ -29,9 +29,6 @@
    background-color: #f5f7fa;
 }
 .faq__question-title{
-   font-size: 20px;
-   font-weight: 600;
-   line-height: 1.4;
    padding-right: 15px;
    user-select: none;
 }
@@ -50,18 +47,9 @@
    transform: rotate(90deg);
    fill: #75baff;
 }
-
 .faq__answer-text{
-   font-size: 16px;
-   line-height: 1.5;
    margin-bottom: 32px;
 }
 .faq__answer-detail{
    border-bottom: 1px dashed #000;
-}
-.faq__details{
-   color: $colorWhite;
-   background-color: #1A97D5;
-   padding: 15px 50px;
-   border-radius: 30px;
 }

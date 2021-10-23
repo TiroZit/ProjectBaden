@@ -11,8 +11,8 @@
    transition: left 0.5s ease 0s;
 }
 .main-menu.open,
-.header.open>.container>.main-menu,
-.header.open>.container>.header__menu{
+.header.open>.container--1862>.main-menu,
+.header.open>.container--1862>.header__menu{
    left: 0;
 }
 .main-menu__complex{

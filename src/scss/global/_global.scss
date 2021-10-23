@@ -37,6 +37,7 @@ body {
    font-family: "OpenSans", sans-serif;
    font-size: 15px;
    font-weight: 400;
+   line-height: 1.42;
    transition: all 0.5s ease 0s;
 }
 a,
@@ -44,7 +45,7 @@ a,
    color: inherit;
    transition: all 0.3s ease 0s;
 }
-a:hover{
+a:not(.link-btn-blue):hover{
    color: $colorBlue;
 }
 button{
@@ -55,6 +56,11 @@ h2{
    font-size: $f50;
    font-weight: 900;
    line-height: 1.2;
+}
+h4{
+   font-size: $f20;
+   font-weight: 600;
+   line-height: 1.4;
 }
 body.lock{
    background: rgba(0,0,0,.5);
@@ -69,13 +75,46 @@ body.lock{
    flex: 1 1 auto;
 }
 .wrapper{
-   margin-top: 100px;
+   margin-top: $m100;
 }
 .container {
    @include container("", "10px");
    position: relative;
 }
+.container--1862 {
+   @include container("1842px", "10px");
+   position: relative;
+}
+.container--1432 {
+   @include container("1412px", "10px");
+   position: relative;
+}
 .container--1300 {
    @include container("1300px", "10px");
    position: relative;
+}
+.link-dashed{
+   border-bottom: 1px dashed $colorBlack;
+}
+.link-dashed:hover{
+   border-bottom: 1px dashed $colorBlue;
+}
+.link-btn{
+   border-radius: 30px;
+}
+.link-btn-white{
+   color: $colorBlack;
+   background-color: $colorWhite;
+   padding: 20px 60px;
+}
+.link-btn-blue{
+   color: $colorWhite;
+   background-color: #1A97D5;
+   border-radius: 30px;
+}
+.link-btn-blue:hover{
+   box-shadow: 0px 5px 20px 2px rgba(34, 60, 80, 0.2);
+}
+.link-btn-details{
+   padding: 15px 50px;
 }
