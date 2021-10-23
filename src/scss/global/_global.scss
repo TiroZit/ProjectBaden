@@ -57,6 +57,11 @@ h2{
    font-weight: 900;
    line-height: 1.2;
 }
+h3{
+   font-size: $f25;
+   font-weight: 900;
+   line-height: 1.2;
+}
 h4{
    font-size: $f20;
    font-weight: 600;
@@ -82,18 +87,19 @@ body.lock{
    position: relative;
 }
 .container--1862 {
-   @include container("1842px", "10px");
+   @include container("1882px", "10px");
    position: relative;
 }
 .container--1432 {
-   @include container("1412px", "10px");
+   @include container("1452px", "10px");
    position: relative;
 }
 .container--1300 {
-   @include container("1300px", "10px");
+   @include container("1320px", "10px");
    position: relative;
 }
 .link-dashed{
+   width: fit-content;
    border-bottom: 1px dashed $colorBlack;
 }
 .link-dashed:hover{
@@ -113,7 +119,6 @@ body.lock{
 .link-btn-blue{
    color: $colorWhite;
    background-color: #1A97D5;
-   border-radius: 30px;
 }
 .link-btn-details{
    padding: 15px 50px;
