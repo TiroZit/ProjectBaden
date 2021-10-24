@@ -118,6 +118,13 @@
    margin-bottom: 30px;
 }
 @media (max-width: 1240px){
+   .tabs{
+      overflow: scroll;
+      height: 60px;
+   }
+   .tabs__link{
+      width: max-content;
+   }
    .leisure__list{
       grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
    }

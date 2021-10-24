@@ -2302,6 +2302,13 @@ body.lock {
   margin-bottom: 30px; }
 
 @media (max-width: 1240px) {
+  .tabs {
+    overflow: scroll;
+    height: 60px; }
+  .tabs__link {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content; }
   .leisure__list {
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
   .leisure__inner {
