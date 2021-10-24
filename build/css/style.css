@@ -2301,6 +2301,26 @@ body.lock {
 .leisure__item-detail {
   margin-bottom: 30px; }
 
+@media (max-width: 1240px) {
+  .leisure__list {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+  .leisure__inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .leisure__inner-title {
+    width: 100%;
+    max-width: unset; }
+  .leisure__inner-price {
+    margin-top: 8px; } }
+
+@media (max-width: 991px) {
+  .leisure__item-content {
+    width: 100%; }
+  .leisure__item-text {
+    display: none; }
+  .leisure__item-detail {
+    margin-top: 30px; } }
+
 .main-slider {
   height: 100vh;
   color: #fff; }
