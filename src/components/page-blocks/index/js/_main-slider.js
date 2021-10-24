@@ -1,4 +1,4 @@
-const swiper = new Swiper('.main-slider__container', {
+const mainSlider = new Swiper('.main-slider__container', {
    grabCursor: true,
    loop: true,
    speed: 500,

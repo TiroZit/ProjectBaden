@@ -1,0 +1,107 @@
+.leisure>.container--1432{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.leisure__title{
+   text-align: center;
+   max-width: 760px;
+   margin-bottom: 50px;
+}
+.tabs{
+   width: 100%;
+   margin-bottom: 40px;
+}
+.tabs__list{
+   display: flex;
+   justify-content: space-between;
+}
+.tabs__link{
+   display: block;
+   padding: 12px 14px;
+}
+.leisure__list{
+   display: grid;
+   grid-template-columns: repeat(auto-fill,minmax(444px,1fr));
+   grid-template-rows: repeat(auto-fill,minmax(fit-content,1fr));
+   gap: 20px;
+}
+.leisure__item{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.leisure__slider{
+   width: 100%;
+   height: 330px;
+}
+.leisure__slide-wrapper{
+}
+.leisure__slider-button-prev.swiper-button-prev{
+   left: 28px;
+}
+.leisure__slider-button-next.swiper-button-next{
+   left: 80px;
+}
+.leisure__slider-button-prev.swiper-button-prev,
+.leisure__slider-button-next.swiper-button-next{
+   top: unset;
+   bottom: 0;
+   background-color: #fbfafa;
+   width: 52px;
+   height: 52px;
+   background-image:url(/wp-content/themes/Baden-Baden/assets/img/icons/leisure-separator.png);
+   background-position: 100%;
+   background-repeat: no-repeat;
+}
+.leisure-slider-stick{
+   position: absolute;
+   bottom: 7px;
+   left: 80px;
+   z-index: 11;
+   height: 35px;
+   width: 1px;
+   background-color: #DCDCDC;
+}
+.leisure__slider-button-prev.swiper-button-prev::after,
+.leisure__slider-button-next.swiper-button-next::after{
+   font-size: 15px;
+   font-weight: bold;
+   color: $colorBlack;
+   transition: all 0.3s ease 0s;
+}
+.leisure__slider-button-prev:hover.swiper-button-prev::after,
+.leisure__slider-button-next:hover.swiper-button-next::after{
+   color: $colorBlue;
+}
+.leisure__item-content{
+   flex-grow: 1;
+   padding: 25px 0 0 29px;
+}
+.leisure__inner{
+   display: flex;
+   justify-content: space-between;
+}
+.leisure__inner-title{
+   flex-grow: 1;
+   max-width: 250px;
+   height: fit-content;
+   font-size: 18px;
+   font-weight: 700;
+   padding-right: 10px;
+}
+.leisure__inner-price{
+   color: $colorWhite;
+   text-align: center;
+   height: 36px;
+   background-color: #1b98d3;
+   padding: 8px;
+}
+.leisure__item-text{
+   margin: 22px 0;
+   padding-right: 10px;
+}
+.leisure__item-detail{
+   margin-bottom: 30px;
+}
