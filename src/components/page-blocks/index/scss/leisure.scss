@@ -20,11 +20,23 @@
    display: block;
    padding: 12px 14px;
 }
+.tabs__link.active{
+   border-bottom: 2px solid rgb(98, 179, 217);
+}
 .leisure__list{
    display: grid;
    grid-template-columns: repeat(auto-fill,minmax(444px,1fr));
    grid-template-rows: repeat(auto-fill,minmax(fit-content,1fr));
    gap: 20px;
+   overflow: hidden;
+   opacity: 0;
+   height: 0;
+   transition: all .3s ease 0s;
+}
+.leisure__list.active{
+   overflow: visible;
+   opacity: 1;
+   height: auto;
 }
 .leisure__item{
    display: flex;
@@ -85,7 +97,7 @@
 }
 .leisure__inner-title{
    flex-grow: 1;
-   max-width: 250px;
+   max-width: 220px;
    height: fit-content;
    font-size: 18px;
    font-weight: 700;

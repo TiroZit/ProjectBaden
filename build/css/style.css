@@ -2183,12 +2183,26 @@ body.lock {
   display: block;
   padding: 12px 14px; }
 
+.tabs__link.active {
+  border-bottom: 2px solid #62b3d9; }
+
 .leisure__list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(444px, 1fr));
   grid-template-rows: repeat(auto-fill, minmax(-webkit-fit-content, 1fr));
   grid-template-rows: repeat(auto-fill, minmax(fit-content, 1fr));
-  gap: 20px; }
+  gap: 20px;
+  overflow: hidden;
+  opacity: 0;
+  height: 0;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
+  transition: all .3s ease 0s; }
+
+.leisure__list.active {
+  overflow: visible;
+  opacity: 1;
+  height: auto; }
 
 .leisure__item {
   display: -webkit-box;
@@ -2265,7 +2279,7 @@ body.lock {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  max-width: 250px;
+  max-width: 220px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
