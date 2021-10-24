@@ -2072,6 +2072,9 @@ body.lock {
   margin-bottom: 24px; }
 
 .event__text-item {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   font-weight: 700;
   margin-bottom: 24px; }
 
