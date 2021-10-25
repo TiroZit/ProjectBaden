@@ -15,7 +15,7 @@ if (burger) {
     burger.addEventListener("click", (function(r) {
         if (menu == 0) {
             document.body.classList.toggle("lock"),
-                //burger.classList.toggle("open"),
+                burger.classList.toggle("open"),
                 burger.classList.toggle("burger-menu--open"),
                 e.classList.toggle("open");
         } else {
