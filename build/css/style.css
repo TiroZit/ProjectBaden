@@ -4140,7 +4140,8 @@ h4 {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  margin-bottom: 22px; }
 
 .leisure__inner-title {
   -webkit-box-flex: 1;
@@ -4162,7 +4163,7 @@ h4 {
   padding: 8px; }
 
 .leisure__item-text {
-  margin: 22px 0;
+  margin-bottom: 22px;
   padding-right: 10px; }
 
 .leisure__item-detail {

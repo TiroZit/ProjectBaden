@@ -94,6 +94,7 @@
 .leisure__inner{
    display: flex;
    justify-content: space-between;
+   margin-bottom: 22px;
 }
 .leisure__inner-title{
    flex-grow: 1;
@@ -111,7 +112,7 @@
    padding: 8px;
 }
 .leisure__item-text{
-   margin: 22px 0;
+   margin-bottom: 22px;
    padding-right: 10px;
 }
 .leisure__item-detail{
