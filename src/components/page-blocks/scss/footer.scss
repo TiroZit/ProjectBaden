@@ -39,6 +39,17 @@
       display: none;
    }
 }
+@media (max-width: 767px){
+   .footer>.container--1862{
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .footer__list-copy{
+      margin-bottom: 15px;
+      flex: unset;
+   }
+}
 @media (max-width: 425px){
    .footer>*:not(:last-child){
       margin-bottom: 20px;

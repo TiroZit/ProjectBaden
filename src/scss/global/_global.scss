@@ -138,3 +138,8 @@ body.lock{
 .link-btn-details{
    padding: 15px 50px;
 }
+@media (max-width: 767px){
+   .wrapper{
+      margin-top: $m50;
+   }
+}
