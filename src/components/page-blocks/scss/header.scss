@@ -32,11 +32,11 @@
 .logo>*:last-child{
    margin-left: 12px;
 }
-.header__services{
+.burger-menu{
    display: flex;
    align-items: center;
 }
-.header__services>*:last-child{
+.burger-menu>*:last-child{
    margin-left: 15px;
 }
 .burger{
@@ -93,7 +93,7 @@
    background-position: center;
    transition: all .1s ease 0s;
 }
-.header__services-title{
+.burger-menu__title{
    font-size: 25px;
    font-weight: 900;
 }
@@ -183,7 +183,7 @@ svg{
    .logo img{
       height: 58px;
    }
-   .header__services{
+   .burger-menu__title{
       margin-right: 20px;
    }
    .header__menu{
@@ -214,10 +214,8 @@ svg{
    }
 }
 @media (max-width: 991px){
-   .header__services-title{
+   .burger-menu__title{
       display: none;
-   }
-   .header__services{
    }
    .burger-menu--open2>.burger>.bar{
       display: none;
