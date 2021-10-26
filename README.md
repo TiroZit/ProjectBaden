@@ -1,5 +1,5 @@
 # ProjectBaden
-Авторы - Никита (TiroZit), Костя (konstantinbikbulatov), Игорь (Kaptikov), Михаил (Conechka), Артем (Killer9457)
+Авторы - Никита (TiroZit), Константин (konstantinbikbulatov), Игорь (Kaptikov), Михаил (Conechka), Артем (Killer9457)
 
 ветка master - главная ветка сайта  <br/>
 ветка gh-pages - ветка с папкой build для GitHub Pages  <br/>
