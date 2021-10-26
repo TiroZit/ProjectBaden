@@ -43,6 +43,7 @@
     "vinyl-ftp": "^0.6.1"
   },
   "dependencies": {
-    "swiper": "^7.0.9"
+    "@fancyapps/ui": "^4.0.7",
+    "swiper": "^7.1.0"
   }
 }
