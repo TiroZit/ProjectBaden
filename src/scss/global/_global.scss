@@ -138,6 +138,11 @@ body.lock{
 .link-btn-details{
    padding: 15px 50px;
 }
+.leisure__slide,
+.main-slider__slide .main-slider__slide-img,
+.gallery__slider-slide .gallery__slider-img{
+   background: url('../img/loading.gif') center / 50px no-repeat;
+}
 @media (max-width: 767px){
    .wrapper{
       margin-top: $m50;
