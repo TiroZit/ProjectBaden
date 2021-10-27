@@ -41,33 +41,33 @@ body {
    transition: all 0.5s ease 0s;
 }
 a,
-.header__contacts-title{
+.header__contacts-title {
    color: inherit;
    transition: all 0.3s ease 0s;
 }
-a:not(.link-btn):hover{
+a:not(.link-btn):hover {
    color: $colorBlue;
 }
-button{
+button {
    background-color: inherit;
 }
 h1,
-h2{
+h2 {
    font-size: $f50;
    font-weight: 900;
    line-height: 1.2;
 }
-h3{
+h3 {
    font-size: $f25;
    font-weight: 900;
    line-height: 1.2;
 }
-h4{
+h4 {
    font-size: $f20;
    font-weight: 600;
    line-height: 1.4;
 }
-body.lock{
+body.lock {
 }
 ._wrapper {
    display: flex;
@@ -75,11 +75,11 @@ body.lock{
    overflow: hidden;
    min-height: 100%;
 }
-.header.open~.overlay{
+.header.open ~ .overlay {
    visibility: visible;
    opacity: 1;
 }
-.overlay{
+.overlay {
    visibility: hidden;
    opacity: 0;
    position: fixed;
@@ -94,7 +94,7 @@ body.lock{
 .main {
    flex: 1 1 auto;
 }
-.wrapper{
+.wrapper {
    margin-top: $m100;
 }
 .container {
@@ -113,38 +113,67 @@ body.lock{
    @include container("1320px", "10px");
    position: relative;
 }
-.link-dashed{
+.link-dashed {
    width: fit-content;
    border-bottom: 1px dashed $colorBlack;
 }
-.link-dashed:hover{
+.link-dashed:hover {
    border-bottom: 1px dashed $colorBlue;
 }
-.link-btn{
+.link-btn {
    border-radius: 30px;
 }
-.link-btn:hover{
+.link-btn:hover {
    box-shadow: 0px 5px 20px 2px rgba(34, 60, 80, 0.2);
 }
-.link-btn-white{
+.link-btn-white {
    color: $colorBlack;
    background-color: $colorWhite;
    padding: 20px 60px;
 }
-.link-btn-blue{
+.link-btn-blue {
    color: $colorWhite;
-   background-color: #1A97D5;
+   background-color: #1a97d5;
 }
-.link-btn-details{
+.link-btn-details {
    padding: 15px 50px;
 }
+// @keyframes fancybox-dash {
+//    0% {
+//       stroke-dasharray: 1, 200;
+//       stroke-dashoffset: 0;
+//    }
+//    50% {
+//       stroke-dasharray: 89, 200;
+//       stroke-dashoffset: -35px;
+//    }
+//    100% {
+//       stroke-dasharray: 89, 200;
+//       stroke-dashoffset: -124px;
+//    }
+// }
+// @keyframes fancybox-rotate {
+//    100% {
+//       transform: rotate(360deg);
+//    }
+// }
+// .loading-svg {
+//    fill: none;
+//    stroke-width: 2.75;
+//    stroke-miterlimit: 10;
+//    stroke-dasharray: 1, 200;
+//    stroke-dashoffset: 0;
+//    animation: fancybox-dash 1.5s ease-in-out infinite;
+//    stroke-linecap: round;
+//    stroke: #858585;
+// }
 .leisure__slide,
 .main-slider__slide .main-slider__slide-img,
-.gallery__slider-slide .gallery__slider-img{
+.gallery__slider-slide .gallery__slider-img {
    background: url('../img/loading.gif') center / 50px no-repeat;
 }
-@media (max-width: 767px){
-   .wrapper{
+@media (max-width: 767px) {
+   .wrapper {
       margin-top: $m50;
    }
 }
