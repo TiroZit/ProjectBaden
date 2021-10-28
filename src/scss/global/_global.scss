@@ -71,6 +71,10 @@
    }
 
 }
+img{
+   object-fit: cover;
+   height: 100%;
+}
 html,
 body {
    color: var(--body-color);
