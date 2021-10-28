@@ -65,7 +65,7 @@
 .gallery__slider-button-prev.swiper-button-prev::after,
 .gallery__slider-button-next.swiper-button-next::after{
    font-size: 40px;
-   color: $colorWhite;
+   color: var(--body-bcolor);
    transition: all 0.3s ease 0s;
 }
 .gallery__slider-button-prev:hover,

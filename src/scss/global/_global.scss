@@ -31,14 +31,46 @@
 .--dir-col {
    flex-direction: column;
 }
+@media (prefers-color-scheme: light){
+   :root{
+      --body-color: #000;
+      --body-bcolor: #fff;
+      --body-hcolor: #157aaa;
+      --body-hbcolor: #f3f3f3;
+   }
+   .main-slider__slide-wrapper > .logo-mobile,
+   .main-slider__slide-title{
+      color: var(--body-bcolor);
+      fill: var(--body-bcolor);
+   }
+}
+@media (prefers-color-scheme: dark){
+   :root{
+      --body-color: #e8e6e3;
+      --body-bcolor: #181a1b;
+      --body-hcolor: rgb(91, 188, 235);
+      --body-hbcolor: rgb(31, 33, 35);
+   }
+   .link-btn-white{
+      color: var(--body-bcolor);
+      background-color: var(--body-color);
+   }
+
+}
 html,
 body {
-   color: $colorBlack;
+   color: var(--body-color);
+   background-color: var(--body-bcolor);
    font-family: "OpenSans", sans-serif;
    font-size: 15px;
    font-weight: 400;
    line-height: 1.42;
    transition: all 0.5s ease 0s;
+}
+svg{
+   fill: var(--body-color);
+   stroke: var(--body-color);
+   transition: all 0.3s ease 0s;
 }
 a,
 .header__contacts-title {
@@ -46,7 +78,7 @@ a,
    transition: all 0.3s ease 0s;
 }
 a:not(.link-btn):hover {
-   color: $colorBlue;
+   color: var(--body-hcolor);
 }
 button {
    background-color: inherit;
@@ -115,10 +147,10 @@ body.lock {
 }
 .link-dashed {
    width: fit-content;
-   border-bottom: 1px dashed $colorBlack;
+   border-bottom: 1px dashed var(--body-color);
 }
 .link-dashed:hover {
-   border-bottom: 1px dashed $colorBlue;
+   border-bottom: 1px dashed var(--body-hcolor);
 }
 .link-btn {
    border-radius: 30px;
@@ -127,12 +159,10 @@ body.lock {
    box-shadow: 0px 5px 20px 2px rgba(34, 60, 80, 0.2);
 }
 .link-btn-white {
-   color: $colorBlack;
-   background-color: $colorWhite;
    padding: 20px 60px;
 }
 .link-btn-blue {
-   color: $colorWhite;
+   color: var(--body-bcolor);
    background-color: #1a97d5;
 }
 .link-btn-details {

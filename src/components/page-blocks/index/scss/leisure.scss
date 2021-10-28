@@ -75,12 +75,12 @@
 .leisure__slider-button-next.swiper-button-next::after{
    font-size: 15px;
    font-weight: bold;
-   color: $colorBlack;
+   color: var(--body-color);
    transition: all 0.3s ease 0s;
 }
 .leisure__slider-button-prev:hover.swiper-button-prev::after,
 .leisure__slider-button-next:hover.swiper-button-next::after{
-   color: $colorBlue;
+   color: var(--body-hcolor);
 }
 .leisure__item-content{
    flex-grow: 1;
@@ -100,7 +100,7 @@
    padding-right: 10px;
 }
 .leisure__inner-price{
-   color: $colorWhite;
+   color: var(--body-bcolor);
    text-align: center;
    height: 36px;
    background-color: #1b98d3;

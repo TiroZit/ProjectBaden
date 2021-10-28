@@ -6,7 +6,7 @@
    z-index: 6;
    width: 610px;
    height: 90%;
-   background-color: $colorWhite;
+   background-color: var(--body-bcolor);
    padding: 20px 0 0 130px;
    transition: left 0.5s ease 0s;
 }
@@ -27,7 +27,7 @@
    top: 50%;
    right: 78%;
    padding: 10px;
-   background-color: $colorWhite;
+   background-color: var(--body-bcolor);
    transform: translateY(-50%) rotate(-90deg);
 }
 .main-menu__subtitle,
@@ -50,7 +50,7 @@
    right: -32px;
    padding: 8px;
    background-color: #c6c6c6;
-   color: $colorWhite;
+   color: var(--body-bcolor);
 }
 .main-menu__item{
 }
@@ -123,7 +123,7 @@
    font-size: 12px;
    font-weight: 600;
    text-align: center;
-   color: $colorWhite;
+   color: var(--body-bcolor);
    padding: 5px 10px;
    height: 31px;
 }

@@ -1,6 +1,5 @@
 .main-slider{
    height: 100vh;
-   color: $colorWhite;
 }
 .main-slider__slide-img{
    position: absolute;
@@ -29,9 +28,8 @@
    top: 30%;
    gap: 50px;
 }
-.main-slider__slide-logo{
-   width: 186px;
-   height: 186px;
+.main-slider__slide-wrapper > .logo-mobile{
+   min-height: 186px;
 }
 .main-slider__slide-title{
    max-width: 677px;
@@ -48,7 +46,7 @@
 .main-slider .swiper-pagination .swiper-pagination-bullet{
    width: 10px;
    height: 10px;
-   background: $colorWhite;
+   background: var(--body-bcolor);
    margin: 0 7.5px;
    opacity: 1;
 }
@@ -56,7 +54,7 @@
    position: relative;
    width: 18px;
    height: 18px;
-   background: $colorWhite;
+   background: var(--body-bcolor);
 }
 .main-slider .swiper-pagination .swiper-pagination-bullet-active div{
    position: absolute;
@@ -65,7 +63,7 @@
    width: 10px;
    height: 10px;
    border-radius: 50%;
-   background: $colorBlack;
+   background: var(--body-color);
 }
 .main-slider__button-prev.swiper-button-prev{
    left: calc(50% - 133px);
@@ -76,7 +74,7 @@
 .main-slider__button-prev.swiper-button-prev,
 .main-slider__button-next.swiper-button-next{
    top: 95vh;
-   background-color: $colorWhite;
+   background-color: var(--body-bcolor);
    width: 32px;
    height: 32px;
    border-radius: 50%;
@@ -85,7 +83,7 @@
 .main-slider__button-next.swiper-button-next::after{
    font-size: 16px;
    font-weight: bold;
-   color: $colorBlack;
+   color: var(--body-color);
 }
 @media (max-width: 991px){
    .main-slider__slide-wrapper{
@@ -103,7 +101,7 @@
       justify-content: flex-start;
       top: 30%;
    }
-   .main-slider__slide-logo{
+   .main-slider__slide-wrapper > .logo-mobile{
       display: none;
    }
 }
