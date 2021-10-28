@@ -38,6 +38,13 @@
       --body-hcolor: #157aaa;
       --body-hbcolor: #f3f3f3;
    }
+   .burger-menu--open2{
+      background-image: url("data:image/svg+xml;charset=utf8, %3Csvg viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.51 6.255L6.255 10.51 2 6.255' stroke='%23000' stroke-width='0.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+   }
+   .link-btn-white{
+      color: var(--body-color);
+      background-color: var(--body-bcolor);
+   }
    .main-slider__slide-wrapper > .logo-mobile,
    .main-slider__slide-title{
       color: var(--body-bcolor);
@@ -50,6 +57,9 @@
       --body-bcolor: #181a1b;
       --body-hcolor: rgb(91, 188, 235);
       --body-hbcolor: rgb(31, 33, 35);
+   }
+   .burger-menu--open2{
+      background-image: url("data:image/svg+xml;charset=utf8, %3Csvg viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.51 6.255L6.255 10.51 2 6.255' stroke='%23e8e6e3' stroke-width='0.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
    }
    .link-btn-white{
       color: var(--body-bcolor);
