@@ -1,14 +1,16 @@
 <header class="header">
    <div class="container--1862">
-      <a class="logo" href="/">
-         @@include('../bem-blocks/_sprite.html',{ "class":"logo-desktop",
+      <div class="logo">
+         <a class="logo__link" href="/">
+            @@include('../bem-blocks/_sprite.html',{ "class":"logo-desktop",
                "width":"width: 90px;",
                "id":"css--logo-desktop", })
-         @@include('../bem-blocks/_sprite.html',{ "class":"logo-mobile",
+            @@include('../bem-blocks/_sprite.html',{ "class":"logo-mobile",
                "width":"width: 60px;", "height":"height: 58px;",
                "id":"css--logo-mobile", })
-         <h1 class="logo__title">термы Еткуль</h1>
-      </a>
+            <h1 class="logo__title">термы Еткуль</h1>
+         </a>
+      </div>
       <button class="burger-menu">
          <div class="burger">
             <span class="bar"></span>
