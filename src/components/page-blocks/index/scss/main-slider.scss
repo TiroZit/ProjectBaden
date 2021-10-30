@@ -109,6 +109,10 @@
    &__item.open{
       background-color: var(--body-hbcolor);
    }
+   &__item.open~&__item-hidden{
+      right: 346px;
+      height: 600px;
+   }
    &__icons {
       display: flex;
       flex-direction: column;
@@ -139,16 +143,20 @@
       font-weight: 600;
       color: #75baff;
    }
+   &__detail-arrow{
+      display: none;
+   }
    &__item-hidden{
       position: absolute;
       top: 0;
       right: 0;
       z-index: 0;
       background-color: var(--body-hbcolor);
+      height: 520px;
       padding: 25px 30px;
+      transition: .8s;
    }
    &__item-hidden.open{
-      right: 346px;
    }
    &__form-description{
       color: #CA0713;
@@ -157,9 +165,11 @@
    &__form{
       display: flex;
       flex-direction: column;
+      height: 100%;
    }
    &__form-fiels{
       display: flex;
+      flex: 1;
       flex-direction: column;
       margin-top: 25px;
    }
@@ -177,8 +187,42 @@
       font-family: inherit;
       font-size: 16px;
       background: linear-gradient(180deg, #75BAFF 0%, #6AA8E6 100%);
-      margin-top: 50px;
       padding: 15px 0;
+   }
+}
+@media (max-width: 1024px){
+   .booking{
+      position: static;
+      top: 900px;
+      right: 0;
+      width: 100%;
+      &__item{
+         align-items: center;
+      }
+      &__icons>.arrow{
+         display: none;
+      }
+      &__content{
+         flex: 1;
+         max-width: unset;
+      }
+      &__text{
+         max-width: unset;
+      }
+      &__content>.booking__detail{
+         display: none;
+      }
+      &__detail{
+         margin-right: 10px;
+      }
+      &__detail-arrow{
+         display: flex;
+      }
+      &__item-hidden{
+         display: flex;
+         justify-content: center;
+         position: static;
+      }
    }
 }
 @media (max-width: 991px){
