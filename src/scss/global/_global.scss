@@ -68,14 +68,16 @@ img {
    object-fit: cover;
    height: 100%;
 }
-html,
-body {
+:root{
    font-family: "OpenSans", sans-serif;
    font-size: 15px;
    font-weight: 400;
    color: var(--body-color);
    background-color: var(--body-bcolor);
    line-height: 1.42;
+}
+html,
+body {
    transition: all 0.5s ease 0s;
 }
 svg {

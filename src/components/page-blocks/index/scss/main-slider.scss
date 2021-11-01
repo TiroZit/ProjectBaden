@@ -88,7 +88,7 @@
    display: flex;
    flex-direction: column;
    position: absolute;
-   top: 20%;
+   top: 15%;
    right: 100px;
    z-index: 2;
    background-color: var(--body-bcolor);
@@ -111,7 +111,7 @@
    }
    &__item.open~&__item-hidden{
       right: 346px;
-      height: 600px;
+      height: 752px;
    }
    &__icons {
       display: flex;
@@ -156,8 +156,6 @@
       padding: 25px 30px;
       transition: .8s;
    }
-   &__item-hidden.open{
-   }
    &__form-description{
       color: #CA0713;
       margin-top: 10px;
@@ -165,6 +163,8 @@
    &__form{
       display: flex;
       flex-direction: column;
+      position: relative;
+      width: 230px;
       height: 100%;
    }
    &__form-fiels{
@@ -180,16 +180,19 @@
    &__input{
       font-family: inherit;
       font-size: 15px;
-      width: 230px;
       padding: 15px 0px 15px 15px;
    }
    &__form-btn{
+      position: absolute;
+      left: 12px;
+      bottom: 0;
       font-family: inherit;
       font-size: 16px;
       background: linear-gradient(180deg, #75BAFF 0%, #6AA8E6 100%);
-      padding: 15px 0;
+      padding: 15px 70px;
    }
 }
+//, (max-height: 700px)
 @media (max-width: 1024px){
    .booking{
       position: static;
