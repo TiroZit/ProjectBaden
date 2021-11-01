@@ -225,13 +225,14 @@
       width: 50%;
       transform: translate(0, -12px) rotate(135deg);
    }
-      .header__menu{
+   .header__menu{
       position: fixed;
       top: 75px;
       left: -100%;
+      overflow: auto;
       background-color: var(--body-bcolor);
       width: 100vw;
-      height: 100vh;
+      height: 90%;
       transition: left 0.5s ease 0s;
    }
    .header__menu.open{

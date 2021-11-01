@@ -202,6 +202,11 @@
       &__item{
          align-items: center;
       }
+      &__item.open~&__item-hidden{
+         right: 0;
+         overflow: visible;
+         height: auto;
+      }
       &__icons>.arrow{
          display: none;
       }
@@ -225,6 +230,8 @@
          display: flex;
          justify-content: center;
          position: static;
+         overflow: hidden;
+         height: 0;
       }
    }
 }
