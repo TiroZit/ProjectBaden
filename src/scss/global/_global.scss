@@ -183,40 +183,11 @@ body.lock {
 .link-btn-details {
    padding: 15px 50px;
 }
-// @keyframes fancybox-dash {
-//    0% {
-//       stroke-dasharray: 1, 200;
-//       stroke-dashoffset: 0;
-//    }
-//    50% {
-//       stroke-dasharray: 89, 200;
-//       stroke-dashoffset: -35px;
-//    }
-//    100% {
-//       stroke-dasharray: 89, 200;
-//       stroke-dashoffset: -124px;
-//    }
+// .leisure__slide,
+// .main-slider__slide .main-slider__slide-img,
+// .gallery__slider-slide .gallery__slider-img {
+//    background: url("../img/loading.gif") center / 50px no-repeat;
 // }
-// @keyframes fancybox-rotate {
-//    100% {
-//       transform: rotate(360deg);
-//    }
-// }
-// .loading-svg {
-//    fill: none;
-//    stroke-width: 2.75;
-//    stroke-miterlimit: 10;
-//    stroke-dasharray: 1, 200;
-//    stroke-dashoffset: 0;
-//    animation: fancybox-dash 1.5s ease-in-out infinite;
-//    stroke-linecap: round;
-//    stroke: #858585;
-// }
-.leisure__slide,
-.main-slider__slide .main-slider__slide-img,
-.gallery__slider-slide .gallery__slider-img {
-   background: url("../img/loading.gif") center / 50px no-repeat;
-}
 @media (max-width: 767px) {
    .wrapper {
       margin-top: $m50;

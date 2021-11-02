@@ -1,6 +1,7 @@
 const plugins = [
 	'node_modules/@fancyapps/ui/dist/fancybox.umd.js',
 	'node_modules/swiper/swiper-bundle.min.js',
+	'node_modules/vanilla-lazyload/dist/lazyload.min.js',
 ];
 const {
 	src,
