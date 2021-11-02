@@ -200,6 +200,7 @@
       right: 0;
       width: 100%;
       &__item{
+         flex-wrap: wrap;
          align-items: center;
       }
       &__item.open~&__item-hidden{
@@ -232,8 +233,11 @@
          position: static;
          overflow: hidden;
          height: 0;
+         padding: 0;
       }
    }
+}
+@media (max-width: 425px){
 }
 @media (max-width: 991px){
    .main-slider__slide-wrapper{
