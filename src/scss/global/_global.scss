@@ -188,6 +188,9 @@ body.lock {
 // .gallery__slider-slide .gallery__slider-img {
 //    background: url("../img/loading.gif") center / 50px no-repeat;
 // }
+img:not([src]):not([srcset]) {
+   visibility: hidden;
+}
 @media (max-width: 767px) {
    .wrapper {
       margin-top: $m50;
