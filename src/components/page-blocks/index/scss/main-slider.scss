@@ -181,8 +181,8 @@
    }
    &__form-fiels{
       display: flex;
-      flex: 1;
       flex-direction: column;
+      flex-grow: 1;
       margin-top: 25px;
    }
    &__label{
@@ -194,6 +194,18 @@
       width: 100%;
       padding: 15px 0px 15px 15px;
       margin: 10px 0 10px -5px;
+   }
+   &__input--check{
+      
+   }
+   &__input--check:checked ~ .test{
+      display: block;
+   }
+   .test{
+      display: none;
+   }
+   &__textarea{
+      resize: vertical;
    }
    &__form-btn{
       font-family: inherit;

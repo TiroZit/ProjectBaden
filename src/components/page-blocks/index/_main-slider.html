@@ -282,10 +282,22 @@
               Ваша почта <span style="color: #e21d2c;">*</span>
               <input class="booking__input" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="mail@email.ru" required>
             </label>
-            <label class="booking__label flex">
+            <label class="booking__label booking__label--check flex">
               Карта в подарок
-              <input class="booking__input" name="check-gift" type="checkbox">
+              <input class="booking__input booking__input--check" name="check-gift" type="checkbox">
             </label>
+              <!-- <label class="booking__label">
+                ФИО получателя <span style="color: #e21d2c;">*</span>
+                <input class="booking__input" name="fio-addressee" type="text" pattern="^[А-Яа-яЁё\s]+$" placeholder="ФИО" required>
+              </label>
+              <label class="booking__label">
+                Почта получателя <span style="color: #e21d2c;">*</span>
+                <input class="booking__input" name="email-addressee" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="mail@email.ru" required>
+              </label>
+              <label class="booking__label">
+                Текст поздравления
+                <textarea class="booking__input booking__textarea" name="comment" maxlength="250" resize></textarea>
+              </label> -->
           </fieldset>
           <button class="booking__form-btn link-btn" type="submit">Продолжить</button>
         </form>
