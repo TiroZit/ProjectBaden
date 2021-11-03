@@ -139,14 +139,20 @@
           <p class="booking__form-description">
             Челябинская область с. Еткуль термальный курорт Баден-Баден
           </p>
-          <div class="booking__form-fiels">
-            <label class="booking__label" for="date-in">Дата заезда</label>
-            <input class="booking__input" name="date-in" type="text" value="30.10.2021">
-            <label class="booking__label" for="date-out">Дата выезда</label>
-            <input class="booking__input" name="date-out" type="text" value="31.10.2021">
-            <label class="booking__label" for="guests">Количество гостей</label>
-            <input class="booking__input" name="guests" type="number" value="1">
-          </div>
+          <fieldset class="booking__form-fiels">
+            <label class="booking__label">
+              Дата заезда
+              <input class="booking__input" type="text" value="30.10.2021">
+            </label>
+            <label class="booking__label">
+              Дата выезда
+              <input class="booking__input" type="text" value="31.10.2021">
+            </label>
+            <label class="booking__label">
+              Количество гостей
+              <input class="booking__input" type="number" value="1">
+            </label>
+          </fieldset>
           <button class="booking__form-btn link-btn" type="submit">Перейти</button>
         </form>
       </div>
@@ -187,17 +193,20 @@
       <div class="booking__item-hidden">
         <form action="" class="booking__form">
           <h3 class="booking__title">
-            Найти номер
+            Поиск брони
           </h3>
           <p class="booking__form-description">
             Челябинская область с. Еткуль термальный курорт Баден-Баден
           </p>
+          <p class="booking__form-description booking__form-description--gray">
+            Для оплаты забронированного номера введите номер брони и дату бронирования из СМС.
+          </p>
           <div class="booking__form-fiels">
-            <label class="booking__label" for="date-in">Дата заезда</label>
+            <label class="booking__label" for="date-in">Введите дату указанную в СМС сообщении </label>
             <input class="booking__input" name="date-in" type="text" value="30.10.2021">
-            <label class="booking__label" for="date-out">Дата выезда</label>
+            <label class="booking__label" for="date-out">Введите номер брони </label>
             <input class="booking__input" name="date-out" type="text" value="31.10.2021">
-            <label class="booking__label" for="guests">Количество гостей</label>
+            <label class="booking__label" for="guests">Телефон плательщика </label>
             <input class="booking__input" name="guests" type="number" value="1">
           </div>
           <button class="booking__form-btn link-btn" type="submit">Перейти</button>

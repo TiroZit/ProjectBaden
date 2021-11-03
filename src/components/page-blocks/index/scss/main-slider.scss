@@ -165,6 +165,11 @@
       color: #CA0713;
       margin-top: 10px;
    }
+   &__form-description--gray{
+      border-top: 1px solid var(--body-bscolor);
+      color: var(--body-color);
+      padding-top: 10px;
+   }
    &__form{
       display: flex;
       flex-direction: column;
@@ -180,12 +185,13 @@
    }
    &__label{
       padding-left: 5px;
-      margin: 10px 0;
    }
    &__input{
       font-family: inherit;
       font-size: 15px;
+      width: 100%;
       padding: 15px 0px 15px 15px;
+      margin: 10px 0 10px -5px;
    }
    &__form-btn{
       position: absolute;
