@@ -112,6 +112,7 @@
    &__item.open~&__item-hidden{
       right: 346px;
       height: 752px;
+      visibility: visible;
    }
    &__icons {
       display: flex;
@@ -151,6 +152,7 @@
       top: 0;
       right: 0;
       z-index: 0;
+      visibility: hidden;
       background-color: var(--body-hbcolor);
       height: 520px;
       padding: 25px 30px;
