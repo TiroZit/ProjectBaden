@@ -113,6 +113,7 @@
       right: 346px;
       height: 752px;
       visibility: visible;
+      opacity: 1;
    }
    &__icons {
       display: flex;
@@ -156,10 +157,11 @@
       right: 0;
       z-index: 0;
       visibility: hidden;
+      opacity: 0;
       background-color: var(--body-hbcolor);
       height: 520px;
       padding: 25px 30px;
-      transition: .8s;
+      transition: .5s;
    }
    &__form-description{
       color: #CA0713;
