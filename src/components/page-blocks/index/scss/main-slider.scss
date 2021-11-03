@@ -194,13 +194,10 @@
       margin: 10px 0 10px -5px;
    }
    &__form-btn{
-      position: absolute;
-      left: 12px;
-      bottom: 0;
       font-family: inherit;
       font-size: 16px;
       background: linear-gradient(180deg, #75BAFF 0%, #6AA8E6 100%);
-      padding: 15px 70px;
+      padding: 15px 50px;
    }
 }
 @media (max-width: 1024px){
