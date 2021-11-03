@@ -1,9 +1,10 @@
 .main-menu{
-   overflow: auto;
    position: fixed;
    top: 95px;
    left: -100%;
    z-index: 6;
+   overflow: auto;
+   visibility: hidden;
    width: 610px;
    height: 90%;
    background-color: var(--body-bcolor);
@@ -14,6 +15,7 @@
 .header.open>.container--1862>.main-menu,
 .header.open>.container--1862>.header__menu{
    left: 0;
+   visibility: visible;
 }
 .main-menu__complex{
    position: relative;
