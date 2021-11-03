@@ -4,7 +4,7 @@
       <div class="main-slider__slide swiper-slide">
         <img class="main-slider__slide-img swiper-lazy" data-src="img/main-slider/1.webp" alt="Баден-Баден 1">
         <div class="main-slider__slide-gradient"></div>
-        <div class="main-slider__slide-wrapper container--1432 container--1432">
+        <div class="main-slider__slide-wrapper container--1432">
           @@include('../../bem-blocks/_sprite.html',{ "class":"logo-mobile",
           "width":"width: 186px;", "height":"height: 186px;",
           "id":"logo-mobile", })
@@ -117,15 +117,18 @@
           </p>
           <div class="booking__detail">
             Подробнее
-          </div>
-          <div class="booking__detail-arrow">
-            <div class="booking__detail">
-              Подробнее
-            </div>
             @@include('../../bem-blocks/_sprite.html',{ "class":"arrow",
             "width":"width: 16px;", "height":"height: 18px;", "fill":"fill:none;",
             "id":"arrow", })
           </div>
+        </div>
+        <div class="booking__detail-arrow">
+          <div class="booking__detail">
+            Подробнее
+          </div>
+          @@include('../../bem-blocks/_sprite.html',{ "class":"arrow",
+          "width":"width: 16px;", "height":"height: 18px;", "fill":"fill:none;",
+          "id":"arrow", })
         </div>
       </div>
       <div class="booking__item-hidden">
@@ -167,6 +170,9 @@
           </p>
           <div class="booking__detail">
             Подробнее
+            @@include('../../bem-blocks/_sprite.html',{ "class":"arrow",
+            "width":"width: 16px;", "height":"height: 18px;", "fill":"fill:none;",
+            "id":"arrow", })
           </div>
         </div>
         <div class="booking__detail-arrow">
@@ -181,18 +187,15 @@
       <div class="booking__item-hidden">
         <form action="" class="booking__form">
           <h3 class="booking__title">
-            Поиск брони
+            Найти номер
           </h3>
           <p class="booking__form-description">
             Челябинская область с. Еткуль термальный курорт Баден-Баден
           </p>
-          <p class="booking__form-description">
-            Для оплаты забронированного номера введите номер брони и дату бронирования из СМС.
-          </p>
           <div class="booking__form-fiels">
-            <label class="booking__label" for="date-in">Введите дату указанную в СМС сообщении </label>
+            <label class="booking__label" for="date-in">Дата заезда</label>
             <input class="booking__input" name="date-in" type="text" value="30.10.2021">
-            <label class="booking__label" for="date-out">Введите номер брони </label>
+            <label class="booking__label" for="date-out">Дата выезда</label>
             <input class="booking__input" name="date-out" type="text" value="31.10.2021">
             <label class="booking__label" for="guests">Количество гостей</label>
             <input class="booking__input" name="guests" type="number" value="1">
@@ -204,9 +207,9 @@
     <div class="booking__spoiler">
       <div class="booking__item">
         <div class="booking__icons">
-          @@include('../../bem-blocks/_sprite.html',{ "class":"gift",
-          "width":"width: 36px;", "height":"height: 25px;",
-          "id":"gift", })
+          @@include('../../bem-blocks/_sprite.html',{ "class":"bed",
+          "width":"width: 36px;", "height":"height: 25px;", "fill":"fill:none;",
+          "id":"bed", })
           @@include('../../bem-blocks/_sprite.html',{ "class":"arrow",
           "width":"width: 16px;", "height":"height: 18px;", "fill":"fill:none;",
           "id":"arrow", })
@@ -217,6 +220,9 @@
           </h4>
           <div class="booking__detail">
             Подробнее
+            @@include('../../bem-blocks/_sprite.html',{ "class":"arrow",
+            "width":"width: 16px;", "height":"height: 18px;", "fill":"fill:none;",
+            "id":"arrow", })
           </div>
         </div>
         <div class="booking__detail-arrow">
