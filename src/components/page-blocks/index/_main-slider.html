@@ -216,7 +216,7 @@
             </label>
             <label class="booking__label">
               Почта плательщика <span style="color: #e21d2c;">*</span>
-              <input class="booking__input" name="email" type="email" placeholder="mail@email.ru" required>
+              <input class="booking__input" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="mail@email.ru" required>
             </label>
           </fieldset>
           <button class="booking__form-btn link-btn" type="submit">Найти бронь</button>
@@ -264,15 +264,15 @@
           <fieldset class="booking__form-fiels">
             <label class="booking__label">
               Фамилия <span style="color: #e21d2c;">*</span>
-              <input class="booking__input" name="last-name" type="text" placeholder="Фамилия" required>
+              <input class="booking__input" name="last-name" type="text" pattern="^[А-Яа-яЁё\s]+$" placeholder="Фамилия" required>
             </label>
             <label class="booking__label">
               Имя <span style="color: #e21d2c;">*</span>
-              <input class="booking__input" name="first-name" type="text" placeholder="Имя" required>
+              <input class="booking__input" name="first-name" type="text" pattern="^[А-Яа-яЁё\s]+$" placeholder="Имя" required>
             </label>
             <label class="booking__label">
               Отчество <span style="color: #e21d2c;">*</span>
-              <input class="booking__input" name="middle-name" type="text" placeholder="Отчество" required>
+              <input class="booking__input" name="middle-name" type="text" pattern="^[А-Яа-яЁё\s]+$" placeholder="Отчество" required>
             </label>
             <label class="booking__label">
               Телефон плательщика <span style="color: #e21d2c;">*</span>
@@ -280,11 +280,11 @@
             </label>
             <label class="booking__label">
               Ваша почта <span style="color: #e21d2c;">*</span>
-              <input class="booking__input" name="email" type="email" placeholder="mail@email.ru" required>
+              <input class="booking__input" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="mail@email.ru" required>
             </label>
             <label class="booking__label flex">
               Карта в подарок
-              <input class="booking__input" name="check" type="checkbox">
+              <input class="booking__input" name="check-gift" type="checkbox">
             </label>
           </fieldset>
           <button class="booking__form-btn link-btn" type="submit">Продолжить</button>
