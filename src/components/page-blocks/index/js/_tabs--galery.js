@@ -5,7 +5,7 @@ document.querySelectorAll('.tabs__link--gallery').forEach((item) =>
 
       document.querySelectorAll('.tabs__link--gallery').forEach((child) => child.classList.remove('active1')
       );
-      document.querySelectorAll('.leisure__list').forEach((child) => child.classList.remove('active1')
+      document.querySelectorAll('.gallery__slider').forEach((child) => child.classList.remove('active1')
       );
       item.classList.add('active1');
       document.getElementById(id).classList.add('active1');
