@@ -458,11 +458,17 @@
                +7 351 200 3333
             </div>
          </a>
-         <a class="header__contacts-link--btn" href="#" aria-label="phonePopup">
+         <a class="header__contacts-link--btn" data-fancybox data-src="#phonePopup" href="#" aria-label="phonePopup">
             @@include('../bem-blocks/_sprite.html',{ "class":"phone--popup",
             "width":"width: 26px;", "height":"height: 18px;", "fill":"fill:none;", 
             "stroke":"stroke: #0d6690", "id":"phone--popup", })
          </a>
+         <div class="header__contacts-dropdown">
+             <span class="arrow"></span>
+            <a class="header__contacts-dropdown-title" data-fancybox data-src="#phonePopup" href="#">
+               Заказать звонок
+            </a>
+         </div>
       </address>
       <div class="header__socials">
          <a class="header__social-item" href="https://ok.ru/lesnayaskazka" aria-label="ok">

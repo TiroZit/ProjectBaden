@@ -1,0 +1,39 @@
+.popup-phone {
+  // .popup-phone__wrapper
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--body-color);
+    background-color: var(--body-bcolor);
+  }
+  // .popup-phone__title
+  &__title {
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 40px;
+  }
+  // .popup-phone__form
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+  // .popup-phone__form-fiels
+  &__form-fiels {
+    display: flex;
+    flex-direction: column;
+  }
+  // .popup-phone__label
+  &__label {
+  }
+  // .popup-phone__input
+  &__input {
+  }
+  // .popup-phone__form-btn
+  &__form-btn {
+    margin: 40px auto 0 auto;
+  }
+}
+.link-btn {
+}
