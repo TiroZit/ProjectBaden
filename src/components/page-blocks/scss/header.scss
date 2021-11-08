@@ -148,7 +148,7 @@
    right: 200px;
    transition: opacity .3s .15s,visibility .3s .15s;
    background-color: var(--body-bcolor);
-   border: 1px solid var(--body-color);
+   border: 1px solid var(--body-bscolor);
    border-radius: 60px;
 }
 .header__contacts-dropdown>.arrow{
@@ -158,8 +158,8 @@
    background-color: var(--body-bcolor);
    width: 10px;
    height: 10px;
-   border-top: 1px solid var(--body-color);
-   border-right: 1px solid var(--body-color);
+   border-top: 1px solid var(--body-bscolor);
+   border-right: 1px solid var(--body-bscolor);
    transform: rotate(-45deg);
 }
 .header__contacts-dropdown-title{
