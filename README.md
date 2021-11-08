@@ -1,5 +1,5 @@
 # ProjectBaden
-Авторы - Никита (TiroZit), Константин (konstantinbikbulatov), Игорь (Kaptikov), Михаил (Conechka)
+Авторы - Никита (TiroZit).
 
 ветка master - главная ветка сайта  <br/>
 
