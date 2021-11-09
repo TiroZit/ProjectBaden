@@ -31,9 +31,6 @@
 .--dir-col {
    flex-direction: column;
 }
-:focus-visible{
-   box-shadow: 0 0 5px var(--body-color);
-}
 @media (prefers-color-scheme: light) {
    :root {
       --body-color: #000;
