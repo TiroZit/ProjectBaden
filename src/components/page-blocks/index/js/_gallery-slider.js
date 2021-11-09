@@ -3,7 +3,9 @@ const gallerySlider = new Swiper('.gallery__slider', {
    loop: false,
    speed: 500,
    preloadImages: false,
-   lazy: true,
+   lazy: {
+    loadPrevNext: true,
+   },
    watchSlidesProgress: true,
    slidesPerView: 'auto',
    navigation: {

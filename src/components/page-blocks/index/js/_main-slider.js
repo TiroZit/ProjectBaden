@@ -3,7 +3,9 @@ const mainSlider = new Swiper('.main-slider__container', {
    loop: true,
    speed: 500,
    preloadImages: false,
-   lazy: true,
+   lazy: {
+    loadPrevNext: true,
+   },
    pagination: {
      el: '.swiper-pagination',
      clickable: true,

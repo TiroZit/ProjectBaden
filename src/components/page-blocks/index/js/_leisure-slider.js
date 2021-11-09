@@ -3,7 +3,9 @@ const leisureSlider = new Swiper('.leisure__slider', {
    loop: true,
    speed: 300,
    preloadImages: false,
-   lazy: true,
+   lazy: {
+    loadPrevNext: true,
+   },
    navigation: {
      nextEl: '.swiper-button-next',
      prevEl: '.swiper-button-prev',
