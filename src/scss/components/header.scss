@@ -111,8 +111,8 @@
 }
 .pattern{
    position: absolute;
-   top: 46%;
-   right: -4px;
+   top: calc(50% - 4.5px);
+   right: -4.5px;
    z-index: 1;
    fill: none;
    stroke: #d3d3d3;
