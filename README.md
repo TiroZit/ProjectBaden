@@ -3,7 +3,7 @@
 
 ветка master - главная ветка сайта  <br/>
 
-Путь к главной странице (index.html), куда все импортируется - ProjectBaden/src/index.html  <br/>
+Исходники - ProjectBaden/src <br/>
 Компанованная галпом папка сайта - ProjectBaden/docs  <br/>
 
 Сайт - https://tirozit.github.io/ProjectBaden/  <br/>
