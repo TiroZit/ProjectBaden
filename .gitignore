@@ -1,8 +1,9 @@
-!node_modules/
-package-lock.json
-node_modules/*
-!node_modules/swiper/
-!node_modules/@fancyapps/
+node_modules/
+# !node_modules/
+# package-lock.json
+# node_modules/*
+# !node_modules/swiper/
+# !node_modules/@fancyapps/
 
-node_modules/@fancyapps/*
-!node_modules/@fancyapps/ui/
+# node_modules/@fancyapps/*
+# !node_modules/@fancyapps/ui/
