@@ -19,6 +19,7 @@
 .tabs__link{
    display: block;
    padding: 12px 14px;
+   border-bottom: 2px solid transparent;
 }
 .tabs__link.active{
    border-bottom: 2px solid rgb(98, 179, 217);
