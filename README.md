@@ -3,7 +3,6 @@
 
 ветка master - главная ветка сайта  <br/>
 
-Путь к секциям сайта - ProjectBaden/src/components/page-blocks  <br/>
 Путь к главной странице (index.html), куда все импортируется - ProjectBaden/src/index.html  <br/>
 Компанованная галпом папка сайта - ProjectBaden/docs  <br/>
 
