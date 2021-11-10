@@ -40,7 +40,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   bottom: 4.5vh;
+   bottom: 4.5%;
 }
 .main-slider .swiper-pagination .swiper-pagination-bullet{
    width: 10px;
@@ -55,7 +55,8 @@
    height: 18px;
    background: var(--body-bcolor);
 }
-.main-slider .swiper-pagination .swiper-pagination-bullet-active div{
+.main-slider .swiper-pagination .swiper-pagination-bullet-active::after{
+   content: '';
    position: absolute;
    top: calc(50% - 5px);
    left: calc(50% - 5px);
@@ -72,7 +73,7 @@
 }
 .main-slider__button-prev.swiper-button-prev,
 .main-slider__button-next.swiper-button-next{
-   top: 95vh;
+   top: 95%;
    background-color: var(--body-bcolor);
    width: 32px;
    height: 32px;

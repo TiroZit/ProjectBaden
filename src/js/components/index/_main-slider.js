@@ -9,10 +9,6 @@ const mainSlider = new Swiper('.main-slider__container', {
    pagination: {
      el: '.swiper-pagination',
      clickable: true,
-     renderBullet: function (index, className) {
-      return `<div class="swiper-pagination-bullet"><div></div></div>`;
-    },
-
    },
    navigation: {
      nextEl: '.swiper-button-next',
