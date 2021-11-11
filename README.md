@@ -1,5 +1,5 @@
 # ProjectBaden
-Авторы - Никита (TiroZit).
+Автор - Никита (TiroZit).
 
 ветка master - главная ветка сайта  <br/>
 
