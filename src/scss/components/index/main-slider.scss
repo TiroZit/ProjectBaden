@@ -135,8 +135,15 @@
       margin-bottom: 20px;
    }
    &__title {
+      font-size: $f20;
       font-weight: 800;
-   }
+      line-height: 1.4;
+      }
+   &__title--form {
+      font-size: $f25;
+      font-weight: 800;
+      line-height: 1.2;
+      }
    &__text {
       font-size: 13px;
       line-height: 1.3;
