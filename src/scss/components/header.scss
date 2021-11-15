@@ -20,6 +20,9 @@
 .logo__link > .logo-desktop{
    height: 90px;
 }
+.logo__link:hover > .logo-desktop{
+   fill: var(--body-hcolor);
+}
 .logo__link > .logo-mobile{
    display: none;
 }
