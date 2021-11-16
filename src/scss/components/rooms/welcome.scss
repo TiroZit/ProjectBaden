@@ -20,11 +20,12 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 0 10px;
   }
   // .welcome__title
   &__title {
-    font-size: 65px;
-    margin-top: 90px;
+    @include responsive("font-size", 65, 40, 0);
+    @include responsive("margin-top", 90, 50, 0);
   }
   // .welcome__text
   &__text {
@@ -35,10 +36,11 @@
     margin-top: 40px;
   }
 }
-.container {
-}
 .crumbs {
   margin-top: 30px;
+  @media(max-width: 767px){
+    display: none;
+  }
   // .crumbs__list
   &__list {
     display: flex;
