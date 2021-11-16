@@ -138,6 +138,17 @@ body.lock {
 }
 .main {
    flex: 1 1 auto;
+   margin-top: 101px;
+}
+@media(max-width: 1710px) {
+   .main{
+      margin-top: 122px;
+   }
+}
+@media(max-width: 991px) {
+   .main{
+      margin-top: 75px;
+   }
 }
 .wrapper {
    margin-top: $m100;

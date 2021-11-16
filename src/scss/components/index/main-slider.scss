@@ -1,4 +1,15 @@
 .main-slider{
+   margin-top: -101px;
+}
+@media(max-width: 1710px) {
+   .main-slider{
+      margin-top: -122px;
+   }
+}
+@media(max-width: 991px) {
+   .main-slider{
+      margin-top: -75px;
+   }
 }
 .main-slider__slide-img{
    position: absolute;

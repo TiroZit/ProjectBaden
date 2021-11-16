@@ -1,23 +1,30 @@
-<section class="welcome">
-  <div class="container">
-    <nav class="crumbs">
-      <ul class="crumbs__list">
-        <li class="crumbs__item">
-          <a href="/" class="crumbs__link">
-            Главная
-          </a>
-        </li>
-        <li class="crumbs__item">
-          Номера
-        </li>
-      </ul>
-    </nav>
-    <h2 class="welcome__title">
-      Номера Баден-Баден
-    </h2>
-    <p class="welcome__text">
-      Мы предлагаем к проживанию удобные номера с современной отделкой. Всего на территории комплекса имеется 3 корпуса с номерами разной степени комфортности.
-    </p>
-    
-  </div>
+<section class="welcome"  style="background: url('../../../img/welcome/rooms.webp') 50% / cover no-repeat;">
+    <div class="welcome__wrapper">
+      <nav class="crumbs">
+        <ul class="crumbs__list">
+          <li class="crumbs__item">
+            <a href="/index.html" class="crumbs__link">
+              Главная
+            </a>
+            @@include('../_sprite.html',{ "class":"arrow",
+            "width":"width: 10px;", "height":"height: 10px;",
+            "id":"arrow", })
+          </li>
+          <li class="crumbs__item">
+            <a href="/rooms.html" class="crumbs__link">
+              Номера
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <h2 class="welcome__title">
+        Номера Баден-Баден
+      </h2>
+      <p class="welcome__text">
+        Мы предлагаем к проживанию удобные номера с современной отделкой. Всего на территории комплекса имеется 3 корпуса с номерами разной степени комфортности.
+      </p>
+      @@include('../_sprite.html',{ "class":"wive",
+            "width":"width: 281px;", "height":"height: 15px;", "fill":"fill: none;",
+            "id":"wive", })
+    </div>
 </section>
