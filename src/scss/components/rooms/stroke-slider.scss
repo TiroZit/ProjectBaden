@@ -52,7 +52,7 @@
   // .stroke-slider__slide-btn
   &__slide-btn {
     font-weight: bold;
-    color: var(--body-color);
+    color: #e8e6e3;
     margin-top: 15px;
     padding: 10px 40px;
   }
@@ -77,14 +77,15 @@
   }
 }
 .stroke-slider .swiper-pagination{
-  bottom: 0;
+  bottom: 5px;
   z-index: 5;
 }
 .stroke-slider .swiper-pagination .swiper-pagination-bullet{
-  background: var(--body-color);
+  background: #e8e6e3;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.2);
 }
 .stroke-slider .swiper-pagination .swiper-pagination-bullet-active{
-  background: var(--body-color);
+  background: #e8e6e3;
 }
 .stroke-slider .swiper-pagination .swiper-pagination-bullet-active::after{
   background: dodgerblue;
