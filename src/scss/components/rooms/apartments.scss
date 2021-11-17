@@ -1,0 +1,82 @@
+.apartments {
+  &>.container{
+    max-width: 1280px;
+  }
+  // .apartments__list
+  &__list {
+  }
+  // .apartments__item
+  &__item {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #2e94c3;
+    padding: 40px;
+  }
+  // .apartments__item-room
+  &__item-room {
+    display: flex;
+  }
+  // .apartments__gallery
+  &__gallery {
+    flex-grow: 1;
+    flex-basis: 280px;
+  }
+  // .apartments__info
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-basis: 520px;
+    margin-right: 20px;
+  }
+  // .apartments__info-title
+  &__info-title {
+  }
+  // .apartments__info-text
+  &__info-text {
+    line-height: 1.8;
+    margin-top: 10px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+  }
+  // .apartments__info-price
+  &__info-price {
+    margin-top: 10px;
+  }
+  // .apartments__info-btn
+  &__info-btn {
+    margin-top: 30px;
+  }
+  // .apartments__item-table
+  &__item-table {
+    flex-basis: 320px;
+  }
+  // .apartments__table
+  &__table {
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  // .apartments__table-body
+  &__table-body {
+  }
+  // .apartments__table-row
+  &__table-row {
+  }
+  // .apartments__table-column
+  &__table-column {
+    vertical-align: top;
+    width: 50%;
+    font-size: 13px;
+    &--color{
+      color: #909090;
+    }
+  }
+  // .apartments__item-discount
+  &__item-discount {
+    display: block;
+    font-size: 13px;
+    background: #76a2b7;
+    width: 100%;
+    padding: 20px;
+  }
+}
