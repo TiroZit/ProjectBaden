@@ -1,0 +1,14 @@
+#phonePopup.popup-phone__wrapper(style='display: none; cursor: default;')
+  .popup-phone__title
+    | Заказать звонок
+  form.popup-phone__form(action='')
+    fieldset.popup-phone__form-fiels
+      label.booking__label
+        | Имя 
+        span(style='color: #e21d2c;') *
+        input.popup-phone__input.booking__input(name='last-name' type='text' pattern='^[А-Яа-яЁё\s]+$' placeholder='Имя' required='')
+      label.booking__label
+        | Телефон плательщика 
+        span(style='color: #e21d2c;') *
+        input.popup-phone__input.booking__input(name='tel' type='tel' placeholder='+7 (999) 999-99-99' required='')
+    button.popup-phone__form-btn.booking__form-btn.link-btn(type='submit') Отправить

@@ -1,0 +1,32 @@
+extends components/_base
+include components/_mixins
+block vars
+	- var lang = 'ru'
+	- var type = 'website'
+	- var title = 'Баден-Баден, Термы Еткуль, Челябинск'
+	- var description = 'Термальный комплекс Баден-Баден в 40км от Челябинска. Все необходимое для семейного отдыха на природе! Звоните: +7 (351) 200-33-33'
+	- var siteName = 'Баден-Баден'
+	- var keywords = 'баден бассейн гостиница термальный комплекс бани сауна спа'
+	- var url = 'https://tirozit.github.io/ProjectBaden/'
+	- var imageLogo = 'https://tirozit.github.io/ProjectBaden/img/sprite.svg#logo-mobile.svg'
+	- var typeImage = 'image/svg+xml'
+	- var widthImage = '90'
+	- var heightImage = '90'
+	- var favicon = 'img/favicons/favicon.webp'
+	- var font = 'fonts/OpenSans-Regular.woff2'
+	- var light = '#c7cbcc'
+	- var dark = '#273a43'
+block content
+	._wrapper
+		include components/_header
+		.overlay
+		main.main
+			include components/main-slider
+			include components/leisure
+			include components/gallery
+			include components/event
+			include components/event--photo
+			include components/faq
+		include components/_footer
+		include components/phonePopup
+	include components/_scripts

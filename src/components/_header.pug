@@ -1,0 +1,290 @@
+header.header
+  .container--1862
+    .logo
+      a.logo__link(href='index.html' aria-label='Лого')
+        +svg('logo-desktop', '90', '90')
+        +svg('logo-mobile', '60', '58')
+        h1.logo__title термы Еткуль
+    button.burger-menu
+      span.burger
+        span.bar
+        span.bar
+        span.bar
+      span.burger-menu__title Все услуги
+    nav.header__menu
+      ul.header__menu-list
+        li.header__menu-item.header__menu-item--services
+          +svg('arrow', '16', '18', 'none', '')
+          a.header__menu-link Все услуги
+            +svg('pattern')
+        li.header__menu-item
+          a.header__menu-link(href='stoke.html') Акции
+            +svg('pattern')
+        li.header__menu-item
+          a.header__menu-link(href='price.html') Прайс
+            +svg('pattern')
+        li.header__menu-item
+          a.header__menu-link(href='rooms.html') Номера
+            +svg('pattern')
+        li.header__menu-item
+          a.header__menu-link(href='contacts.html') Контакты
+            +svg('pattern')
+        li.header__menu-item
+          a.header__menu-link(href='wedding.html')
+            span(style='color: #bb93af;') Организация свадеб
+            +svg('pattern')
+        li.header__menu-item
+          a.header__menu-link(href='baths.html')
+            span(style='color: #fa8072;') Бани народов мира
+            +svg('pattern')
+        li.header__menu-item
+          a.header__menu-link(href='new-year.html')
+            span(style='color: #337dff;') Новый год 2022
+            +svg('pattern')
+    nav.main-menu
+      ul.main-menu__complex
+        li.main-menu__item--logo
+          .main-menu__subtitle
+            | комплекс
+          .main-menu__title
+            | Thermal
+        li.main-menu__item--price
+          | от 400 руб.
+        li.main-menu__item
+          a.main-menu__link(href='#')
+            | Горячие источники
+        li.main-menu__item
+          a.main-menu__link(href='#')
+            | Комплекс саун
+        li.main-menu__item
+          a.main-menu__link(href='#')
+            | Соляная комната
+        li.main-menu__item
+          a.main-menu__link(href='#')
+            | Бани народов мира
+        li.main-menu__item
+          a.main-menu__link(href='#')
+            | Детям
+        li.main-menu__item
+          a.main-menu__link(href='#')
+            | Тренажерный зал
+      ul.main-menu__list
+        li.main-menu__item.main-menu__item--rooms
+          a.main-menu__link(href='rooms.html')
+            | Номера
+          ul.main-rooms.main-menu
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/room-1.webp' alt='Стандарт')
+                .main-rooms__content
+                  h5.main-rooms__title
+                    | Стандарт
+                  .main-rooms__price
+                    | от 3500 руб.
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/room-2.webp' alt='Стандарт улучшенный')
+                .main-rooms__content
+                  h5.main-rooms__title
+                    | Стандарт улучшенный
+                  .main-rooms__price
+                    | от 6800 руб.
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/room-3.webp' alt='Стандарт улучшенный двухкомнатный')
+                .main-rooms__content
+                  h5.main-rooms__title
+                    | Стандарт улучшенный двухкомнатный
+                  .main-rooms__price
+                    | от 7700 руб.
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/room-4.webp' alt='Стандарт семейный')
+                .main-rooms__content
+                  h5.main-rooms__title
+                    | Стандарт семейный
+                  .main-rooms__price
+                    | от 8200 руб.
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/room-5.webp' alt='Комфорт однокомнатный')
+                .main-rooms__content
+                  h5.main-rooms__title
+                    | Комфорт однокомнатный
+                  .main-rooms__price
+                    | от 7200 руб.
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/room-6.webp' alt='Комфорт двухкомнатный')
+                .main-rooms__content
+                  h5.main-rooms__title
+                    | Комфорт двухкомнатный
+                  .main-rooms__price
+                    | от 11400 руб.
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/room-7.webp' alt='Forest двухместный')
+                .main-rooms__content
+                  h5.main-rooms__title
+                    | Forest двухместный
+                  .main-rooms__price
+                    | от 9000 руб.
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/room-8.webp' alt='Forest двухместный (панорамный)')
+                .main-rooms__content
+                  h5.main-rooms__title
+                    | Forest двухместный (панорамный)
+                  .main-rooms__price
+                    | от 9500 руб.
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/room-9.webp' alt='Термаль Garden view')
+                .main-rooms__content
+                  h5.main-rooms__title
+                    | Термаль Garden view
+                  .main-rooms__price
+                    | от 12400 руб.
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/room-10.webp' alt='Термаль Pool view')
+                .main-rooms__content
+                  h5.main-rooms__title
+                    | Термаль Pool view
+                  .main-rooms__price
+                    | от 12900 руб.
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/room-11.webp' alt='Термаль Лофт')
+                .main-rooms__content
+                  h5.main-rooms__title
+                    | Термаль Лофт
+                  .main-rooms__price
+                    | от 14100 руб.
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/room-12.webp' alt='Термаль Апартаменты двухкомнатные')
+                .main-rooms__content
+                  h5.main-rooms__title
+                    | Термаль Апартаменты двухкомнатные
+                  .main-rooms__price
+                    | от 17900 руб.
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/room-13.webp' alt='Термаль Апартаменты студия')
+                .main-rooms__content
+                  h5.main-rooms__title
+                    | Термаль Апартаменты студия
+                  .main-rooms__price
+                    | от 14100 руб.
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/room-14.webp' alt='Дом - контейнер')
+                .main-rooms__content
+                  h5.main-rooms__title
+                    | Дом - контейнер
+                  .main-rooms__price
+                    | от 10000 руб.
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/room-15.webp' alt='Апартаменты с кухней и столовой')
+                .main-rooms__content
+                  h5.main-rooms__title
+                    | Апартаменты с кухней и столовой
+                  .main-rooms__price
+                    | от 15600 руб.
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/room-16.webp' alt='Коттедж №1 с мангальной зоной')
+                .main-rooms__content
+                  h5.main-rooms__title
+                    | Коттедж №1 с мангальной зоной
+                  .main-rooms__price
+                    | от 27500 руб.
+        li.main-menu__item
+          a.main-menu__link(href='#')
+            | Мангальные зоны
+        li.main-menu__item
+          a.main-menu__link(href='#')
+            | Пляж
+        li.main-menu__item.main-menu__item--cafe
+          a.main-menu__link(href='#')
+            | Рестораны и кафе
+          ul.main-cafe.main-rooms.main-menu
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/cafe-1.webp' alt='Каминный зал')
+                h5.main-cafe__title.main-rooms__title
+                  | Каминный зал
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/cafe-2.webp' alt='Baden Gourmet')
+                h5.main-cafe__title.main-rooms__title
+                  | Baden Gourmet
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/cafe-3.webp' alt='Cafe Thermal')
+                h5.main-cafe__title.main-rooms__title
+                  | Cafe Thermal
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/cafe-4.webp' alt='Банкетный зал')
+                h5.main-cafe__title.main-rooms__title
+                  | Банкетный зал
+            li.main-rooms__item
+              a.main-rooms__link(href='#')
+                img.main-rooms__img.lazy(data-src='img/main-menu/cafe-5.webp' alt='Свадебный шатер')
+                h5.main-cafe__title.main-rooms__title
+                  | Свадебный шатер
+        li.main-menu__item
+          a.main-menu__link(href='#')
+            | Организация мероприятий
+        li.main-menu__item
+          a.main-menu__link(href='#')
+            | Ближайшие мероприятия и фотоотчёты
+        li.main-menu__item
+          a.main-menu__link(href='#')
+            | Отдых и доп.услуги
+        li.main-menu__item
+          a.main-menu__link(href='#')
+            | СПА
+        li.main-menu__item
+          a.main-menu__link(href='#')
+            | Автобусный тур
+        li.main-menu__item
+          a.main-menu__link(style='color: red;' href='#')
+            | Свадьбы
+        li.main-menu__item
+          a.main-menu__link(href='#')
+            | Продажа апартаментов
+        li.main-menu__item
+          a.main-menu__link(href='#')
+            | Фото и видео
+        li.main-menu__item
+          a.main-menu__link(href='#')
+            | Вакансии
+        li.main-menu__item
+          a.main-menu__link(href='#')
+            | Вопрос-ответ
+      a.main-menu__btn.main-menu__btn--bed(href='#')
+        +svg('bed', '36', '25', 'none')
+        .main-menu__btn-title
+          | Найти номер
+    address.header__contacts
+      a.header__contacts-link(href='tel:+73512003333' aria-label='phone')
+        +svg('phone', '17', '17', 'none')
+        .header__contacts-title
+          | +7 351 200 3333
+      a.header__contacts-link--btn(data-fancybox='' data-src='#phonePopup' href='#' aria-label='phonePopup')
+        +svg('phone--popup', '26', '18', 'none', '#0d6690')
+      .header__contacts-dropdown
+        span.arrow
+        a.header__contacts-dropdown-title(data-fancybox='' data-src='#phonePopup' href='#')
+          | Заказать звонок
+    .header__socials
+      a.header__social-item(href='https://ok.ru/lesnayaskazka' aria-label='ok')
+        +svg('ok', '12', '22', 'none')
+      a.header__social-item(href='https://vk.com/74baden' aria-label='vk')
+        +svg('vk', '18', '14', 'none')
+      a.header__social-item(href='https://www.instagram.com/badenhot' aria-label='instagram')
+        +svg('instagram', '17', '17', 'none')

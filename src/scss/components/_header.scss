@@ -109,7 +109,7 @@
 .header__menu-item--services{
    display: none;
 }
-.header__menu-list>.header__menu-item:last-child>.pattern{
+.header__menu-item:last-child .pattern {
    display: none;
 }
 .pattern{
@@ -279,7 +279,7 @@
       width: 80%;
       margin: 0 auto;
    }
-   .header__menu-list>.header__menu-item:last-child>.pattern{
+   .header__menu-item:last-child .pattern{
       display: block;
    }
    .header__menu-item{
@@ -305,8 +305,7 @@
       padding: 25px 0;
    }
    .pattern{
-      position: unset;
-      stroke: var(--body-color);
+      left: 0;
       width: 14px;
       height: 14px;
    }

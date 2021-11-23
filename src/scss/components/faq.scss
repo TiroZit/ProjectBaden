@@ -10,7 +10,7 @@
 .faq__spoiler{
    text-align: start;
 }
-.faq__question>.close{
+.faq__question .close{
    position: absolute;
    right: 20px;
    transform: rotate(45deg);
@@ -43,7 +43,7 @@
    height: auto;
    margin: 32px;
 }
-.faq__question.open>.close{
+.faq__question.open .close{
    transform: rotate(90deg);
    fill: #75baff;
 }

@@ -1,0 +1,29 @@
+extends components/_base
+include components/_mixins
+block vars
+	- var lang = 'ru'
+	- var type = 'website'
+	- var title = 'Номера Стандарт | Баден-Баден, Термы Еткуль, Челябинск'
+	- var description = 'Номера класса Стандарт с повышенным уровнем комфорта. Безлимитное купание в комплексе Thermal - в подарок! Актуальная информация по телефону: +7 (351) 200-33-33'
+	- var siteName = 'Баден-Баден'
+	- var keywords = 'баден бассейн гостиница термальный комплекс бани сауна спа'
+	- var url = 'https://tirozit.github.io/ProjectBaden/rooms'
+	- var imageLogo = 'https://tirozit.github.io/ProjectBaden/img/welcome/rooms.jpg'
+	- var typeImage = 'image/jpeg'
+	- var widthImage = '90'
+	- var heightImage = '90'
+	- var favicon = 'img/favicons/favicon.webp'
+	- var font = 'fonts/OpenSans-Regular.woff2'
+	- var light = '#c7cbcc'
+	- var dark = '#273a43'
+block content
+	._wrapper
+		include components/_header
+		.overlay
+		include components/aside-room
+		main.main.main--standart
+			include components/welcome--standart
+			include components/stroke-slider
+		include components/_footer
+		include components/phonePopup	
+	include components/_scripts

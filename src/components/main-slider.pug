@@ -1,0 +1,195 @@
+section.main-slider
+  .main-slider__container.swiper
+    .main-slider__wrapper.swiper-wrapper
+      .main-slider__slide.swiper-slide
+        img.main-slider__slide-img.swiper-lazy(data-src='img/main-slider/1.webp' alt='Баден-Баден 1')
+        .main-slider__slide-gradient
+        .main-slider__slide-wrapper.container--1432
+          +svg('logo-mobile', '186', '186')
+          h2.main-slider__slide-title
+            | Горячий источник в 40 минутах от Челябинска
+          a.link-btn-white.link-btn(href='#') Подробнее
+      .main-slider__slide.swiper-slide
+        img.main-slider__slide-img.swiper-lazy(data-src='img/main-slider/2.webp' alt='Комфортабельные номера 2')
+        .main-slider__slide-gradient
+        .main-slider__slide-wrapper.container--1432
+          h2.main-slider__slide-title
+            | Комфортабельные номера для проживания
+          a.link-btn-white.link-btn(href='#') Подробнее
+      .main-slider__slide.swiper-slide
+        img.main-slider__slide-img.swiper-lazy(data-src='img/main-slider/3.webp' alt='Рестораны и кафе 3')
+        .main-slider__slide-gradient
+        .main-slider__slide-wrapper.container--1432
+          h2.main-slider__slide-title
+            | Рестораны и кафе
+          a.link-btn-white.link-btn(href='#') Подробнее
+      .main-slider__slide.swiper-slide
+        img.main-slider__slide-img.swiper-lazy(data-src='img/main-slider/4.webp' alt='Бани 4')
+        .main-slider__slide-gradient
+        .main-slider__slide-wrapper.container--1432
+          h2.main-slider__slide-title
+            | Бани народов мира с арома-парениями!
+          a.link-btn-white.link-btn(href='#') Подробнее
+      .main-slider__slide.swiper-slide
+        img.main-slider__slide-img.swiper-lazy(data-src='img/main-slider/5.webp' alt='Зоопарк 5')
+        .main-slider__slide-gradient
+        .main-slider__slide-wrapper.container--1432
+          h2.main-slider__slide-title
+            | Всё для радости детей!
+          a.link-btn-white.link-btn(href='#') Подробнее
+      .main-slider__slide.swiper-slide
+        img.main-slider__slide-img.swiper-lazy(data-src='img/main-slider/6.webp' alt='Мероприятия 6')
+        .main-slider__slide-gradient
+        .main-slider__slide-wrapper.container--1432
+          h2.main-slider__slide-title
+            | Организация мероприятий
+          a.link-btn-white.link-btn(href='#') Подробнее
+      .main-slider__slide.swiper-slide
+        img.main-slider__slide-img.swiper-lazy(data-src='img/main-slider/7.webp' alt='СПА 7')
+        .main-slider__slide-gradient
+        .main-slider__slide-wrapper.container--1432
+          h2.main-slider__slide-title
+            | SPA-процедуры
+          a.link-btn-white.link-btn(href='#') Подробнее
+    .main-slider__pagination.swiper-pagination
+    .main-slider__button-prev.swiper-button-prev
+    .main-slider__button-next.swiper-button-next
+section.booking
+  .booking__spoiler
+    .booking__item
+      .booking__icons
+        +svg('bed', '36', '25', 'none')
+        +svg('arrow', '16', '18', 'none')
+      .booking__content
+        .booking__title
+          | Найти номер
+        p.booking__text
+          | Стоимость проживания от 4900 руб./сут. на 2-их
+        .booking__detail
+          | Подробнее
+          +svg('arrow', '16', '18', 'none')
+      .booking__detail-arrow
+        .booking__detail
+          | Подробнее
+          +svg('arrow', '16', '18', 'none')
+    .booking__item-hidden
+      form.booking__form(action='')
+        .booking__title.booking__title--form
+          | Найти номер
+        p.booking__form-description
+          | Челябинская область с. Еткуль термальный курорт Баден-Баден
+        fieldset.booking__form-fiels
+          label.booking__label
+            | Дата заезда 
+            span(style='color: #e21d2c;') *
+            input.booking__input(type='date' name='date-in' required='')
+          label.booking__label
+            | Дата выезда 
+            span(style='color: #e21d2c;') *
+            input.booking__input(type='date' name='date-out' required='')
+          label.booking__label
+            | Количество гостей
+            input.booking__input(type='number' name='guests' value='1')
+        button.booking__form-btn.link-btn(type='submit') Перейти
+  .booking__spoiler
+    .booking__item
+      .booking__icons
+        +svg('card', '36', '25', 'none')
+        +svg('arrow', '16', '18', 'none')
+      .booking__content
+        .booking__title
+          | Оплатить бронь
+        p.booking__text
+          | Оплатите онлайн забронированный номер
+        .booking__detail
+          | Подробнее
+          +svg('arrow', '16', '18', 'none')
+      .booking__detail-arrow
+        .booking__detail
+          | Подробнее
+          +svg('arrow', '16', '18', 'none')
+    .booking__item-hidden
+      form.booking__form(action='')
+        .booking__title.booking__title--form
+          | Поиск брони
+        p.booking__form-description
+          | Челябинская область с. Еткуль термальный курорт Баден-Баден
+        p.booking__form-description.booking__form-description--gray
+          | Для оплаты забронированного номера введите номер брони и дату бронирования из СМС.
+        fieldset.booking__form-fiels
+          label.booking__label
+            | Введите дату указанную в СМС сообщении 
+            span(style='color: #e21d2c;') *
+            input.booking__input(name='date-sms' type='date' required='')
+          label.booking__label
+            | Введите номер брони 
+            span(style='color: #e21d2c;') *
+            input.booking__input(name='number-reservation' type='text' placeholder='Номер брони' required='')
+          label.booking__label
+            | Телефон плательщика 
+            span(style='color: #e21d2c;') *
+            input.booking__input(name='tel' type='tel' placeholder='+7 (999) 999-99-99' required='')
+          label.booking__label
+            | Почта плательщика 
+            span(style='color: #e21d2c;') *
+            input.booking__input(name='email' type='email' pattern='[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$' placeholder='mail@email.ru' required='')
+        button.booking__form-btn.link-btn(type='submit') Найти бронь
+  .booking__spoiler
+    .booking__item
+      .booking__icons
+        +svg('bed', '36', '25', 'none')
+        +svg('arrow', '16', '18', 'none')
+      .booking__content
+        .booking__title
+          | Купить подарочную карту
+        .booking__detail
+          | Подробнее
+          +svg('arrow', '16', '18', 'none')
+      .booking__detail-arrow
+        .booking__detail
+          | Подробнее
+          +svg('arrow', '16', '18', 'none')
+    .booking__item-hidden
+      form.booking__form(action='')
+        .booking__title.booking__title--form
+          | Купить карту
+        p.booking__form-description
+          | Заполните данные.
+        fieldset.booking__form-fiels
+          label.booking__label
+            | Фамилия 
+            span(style='color: #e21d2c;') *
+            input.booking__input(name='last-name' type='text' pattern='^[А-Яа-яЁё\s]+$' placeholder='Фамилия' required='')
+          label.booking__label
+            | Имя 
+            span(style='color: #e21d2c;') *
+            input.booking__input(name='first-name' type='text' pattern='^[А-Яа-яЁё\s]+$' placeholder='Имя' required='')
+          label.booking__label
+            | Отчество 
+            span(style='color: #e21d2c;') *
+            input.booking__input(name='middle-name' type='text' pattern='^[А-Яа-яЁё\s]+$' placeholder='Отчество' required='')
+          label.booking__label
+            | Телефон плательщика 
+            span(style='color: #e21d2c;') *
+            input.booking__input(name='tel' type='tel' placeholder='+7 (999) 999-99-99' required='')
+          label.booking__label
+            | Ваша почта 
+            span(style='color: #e21d2c;') *
+            input.booking__input(name='email' type='email' pattern='[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$' placeholder='mail@email.ru' required='')
+          label.booking__label.booking__label--check.flex
+            | Карта в подарок
+            input.booking__input.booking__input--check(name='check-gift' type='checkbox')
+          //
+            <label class="booking__label">
+            ФИО получателя <span style="color: #e21d2c;">*</span>
+            <input class="booking__input" name="fio-addressee" type="text" pattern="^[А-Яа-яЁё\s]+$" placeholder="ФИО" required>
+            </label>
+            <label class="booking__label">
+            Почта получателя <span style="color: #e21d2c;">*</span>
+            <input class="booking__input" name="email-addressee" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="mail@email.ru" required>
+            </label>
+            <label class="booking__label">
+            Текст поздравления
+            <textarea class="booking__input booking__textarea" name="comment" maxlength="250" resize></textarea>
+            </label>
+        button.booking__form-btn.link-btn(type='submit') Продолжить
