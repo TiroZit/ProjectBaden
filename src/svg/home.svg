@@ -1,0 +1,16 @@
+<svg viewBox="0 0 54.54 44.78">
+                <g>
+                  <rect x="1" y="12" width="49.54" height="31.78"></rect>
+                  <polygon points="10 1 43.54 1 53.54 12 20 12 10 1"></polygon>
+                  <polygon points="10 1 1 12 20 12 10 1"></polygon>
+                  <line x1="20" y1="12" x2="20" y2="43.78"></line>
+                  <line x1="1" y1="24.59" x2="50.54" y2="24.59"></line>
+                  <line x1="1" y1="28.59" x2="50.54" y2="28.59"></line>
+                  <rect x="5.67" y="15.45" width="10.05" height="6.09"></rect>
+                  <rect x="23.67" y="15.45" width="10.05" height="6.09"></rect>
+                  <rect x="36.67" y="15.45" width="10.05" height="6.09"></rect>
+                  <polyline points="5.67 43.78 5.67 33.45 15.72 33.45 15.72 43.78"></polyline>
+                  <rect x="23.67" y="33.45" width="10.05" height="6.09"></rect>
+                  <rect x="36.67" y="33.45" width="10.05" height="6.09"></rect>
+                </g>
+              </svg>

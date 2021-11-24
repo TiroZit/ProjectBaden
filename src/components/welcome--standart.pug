@@ -11,7 +11,7 @@ section.welcome(style="background: url('img/welcome/standart.webp') 50% / cover 
             | Номера
             +svg('arrow', '10', '10', '#e8e6e3', '#fff')
         li.crumbs__item
-          a.crumbs__link(href='rooms.html')
+          a.crumbs__link(href='standart.html')
             | Стандарт
     h2.welcome__title
       | Стандарт
@@ -19,3 +19,18 @@ section.welcome(style="background: url('img/welcome/standart.webp') 50% / cover 
       | Однокомнатный номер с 1/2/3/4 одно­спальными кроватями. На 1м этаже: кулер и микроволновка.
       | Данное изображение может не соответствовать реальности.
     +svg('wive', '281', '15', 'none', '#e8e6e3')
+    .welcome__details 
+      .welcome__detail 
+        .welcome__detail-img 
+          +svg('window', '61', '52', 'none', 'currentColor')
+        .welcome__detail-description 
+          |Вид из окна:
+          br
+          |на территорию комплекса / на лес
+      .welcome__detail 
+        .welcome__detail-img 
+          +svg('home', '61', '52', 'none', 'currentColor')
+        .welcome__detail-description 
+          |Корпус:
+          br
+          |№ 3 ** и 1
