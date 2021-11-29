@@ -12,7 +12,9 @@
   &::-webkit-scrollbar{
     display: none;
   }
-
+  @media (max-width: 1250px){
+    display: none;
+  }
   // .aside-room__container
   &__container {
     margin-left: 44px;

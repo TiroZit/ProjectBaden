@@ -149,6 +149,9 @@ body.lock {
 .main--standart,
 .main--standart~.footer{
    margin-left: 383px;
+   @media (max-width: 1250px){
+      margin-left: 0;
+   }
 }
 @media(max-width: 1710px) {
    .main{
