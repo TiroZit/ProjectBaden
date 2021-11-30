@@ -3,7 +3,7 @@
     max-width: 1192px
   &__wrapper
     background: #1C1E1F
-    padding: 76px
+    @include responsive("padding", 65, 5, 0);
   &__title
     font-size: 20px
     font-weight: 900
@@ -14,6 +14,10 @@
     margin-bottom: 60px
     &-list
       flex-basis: 50%
+      padding: 0 10px
+      @media ( max-width: 767px )
+        flex-basis: 100%
+        padding: 0
     &-item
       display: flex
       font-size: 16px
