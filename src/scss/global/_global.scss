@@ -49,6 +49,9 @@
       color: var(--body-bcolor);
       fill: var(--body-bcolor);
    }
+   .room-options__wrapper{
+      background: #f8f8f8;
+   }
 }
 @media (prefers-color-scheme: dark) {
    :root {
@@ -62,6 +65,9 @@
    .link-btn-white {
       color: var(--body-bcolor);
       background-color: var(--body-color);
+   }
+   .room-options__wrapper{
+      background: #1C1E1F;
    }
 }
 img {
