@@ -1,4 +1,4 @@
-const mainSlider = new Swiper('.room-slider', {
+const roomSlider = new Swiper('.room-slider', {
   grabCursor: true,
   loop: true,
   speed: 500,
