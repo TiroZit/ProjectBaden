@@ -1,5 +1,26 @@
 .room-slider
-  height: 500px
+  max-width: 1233px
+  height: 594px
+  margin-top: 10px
+  @media(max-width: 1750px)
+    max-width: 940px
+  @media(max-width: 1040px)
+    max-width: 640px
+    height: fit-content
+  @media(max-width: 610px)
+    width: 280px
   &__wrapper
+    user-select: none
   &__slide
+    width: 280px
+    height: 280px
     &-img
+  &__button-prev.swiper-button-prev,
+  &__button-next.swiper-button-next
+    margin: 0 10px
+    @media(max-width: 610px)
+      display: none
+  &__button-prev.swiper-button-prev::after,
+  &__button-next.swiper-button-next::after
+    font-size: 20px
+    color: #18709A
